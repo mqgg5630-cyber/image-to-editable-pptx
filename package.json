@@ -1,0 +1,17 @@
+{
+  "name": "image-to-editable-pptx",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Portable PageIR compiler used by the Image to Editable PPTX ChatGPT skill",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "pptxgenjs": "^4.0.0"
+  },
+  "scripts": {
+    "validate-example": "python3 scripts/validate_page_ir.py examples/minimal/page_ir.json",
+    "compile-example": "node scripts/compile_page_ir.js examples/minimal/page_ir.json /tmp/image-to-editable-pptx-example.pptx"
+  }
+}

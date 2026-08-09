@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Editable slide icon">
+  <rect width="128" height="128" rx="24" fill="#F05A28"/>
+  <rect x="26" y="22" width="76" height="84" rx="8" fill="#FFFFFF"/>
+  <rect x="38" y="38" width="52" height="8" rx="4" fill="#F05A28"/>
+  <rect x="38" y="56" width="34" height="6" rx="3" fill="#222222"/>
+  <rect x="38" y="72" width="22" height="22" rx="4" fill="#FFD7C8" stroke="#F05A28" stroke-width="4"/>
+  <path d="M69 83h20" stroke="#F05A28" stroke-width="6" stroke-linecap="round"/>
+  <path d="M82 75l10 8-10 8" fill="none" stroke="#F05A28" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
