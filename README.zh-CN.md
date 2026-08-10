@@ -8,14 +8,11 @@
 
 ## 产品宣传视频
 
-<video controls preload="metadata" playsinline width="960" poster="https://raw.githubusercontent.com/algerchen2024/image-to-editable-pptx/main/docs/showcase/promo-video-poster.png">
-  <source src="https://raw.githubusercontent.com/algerchen2024/image-to-editable-pptx/main/docs/showcase/promo-video-preview.mp4" type="video/mp4">
-  你的浏览器不支持页面内播放视频。
-</video>
+![产品宣传视频动画预览](docs/showcase/promo-video-teaser.gif)
 
 [打开或下载 48.8 秒高清产品宣传视频（MP4）](https://github.com/algerchen2024/image-to-editable-pptx/releases/download/v0.1.0/image-to-editable-pptx-promo.mp4)
 
-视频演示从扁平化幻灯片图片到可编辑 PowerPoint 的重建流程。界面讲解文字使用英文，配有中文配音和中英双语字幕。
+上方是便于直接浏览的无声动画预览；打开完整 MP4 可听到中文配音和中英双语字幕，界面讲解文字使用英文。
 
 ## README 展示样例（仓库内可直接下载）
 
