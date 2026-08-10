@@ -6,6 +6,14 @@
 
 [English](README.md)
 
+## 产品宣传视频
+
+[![观看 Image to Editable PPTX 产品宣传视频](docs/showcase/promo-video-poster.png)](https://github.com/algerchen2024/image-to-editable-pptx/releases/download/v0.1.0/image-to-editable-pptx-promo.mp4)
+
+[观看或下载 48 秒产品宣传视频（MP4）](https://github.com/algerchen2024/image-to-editable-pptx/releases/download/v0.1.0/image-to-editable-pptx-promo.mp4)
+
+视频演示从扁平化幻灯片图片到可编辑 PowerPoint 的重建流程。界面讲解文字使用英文，配有中文配音和中英双语字幕。
+
 ## README 展示样例（仓库内可直接下载）
 
 下面这两份 PPTX 是**使用本 Skill 转出的可编辑 PPTX 成果文件**，并作为 README 的中英文展示样例一并放入仓库。
