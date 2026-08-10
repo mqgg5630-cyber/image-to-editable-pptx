@@ -6,6 +6,14 @@ A publishable ChatGPT Skill and portable reference implementation for rebuilding
 
 [中文说明](README.zh-CN.md)
 
+## Product demo
+
+[![Watch the Image to Editable PPTX product demo](docs/showcase/promo-video-poster.png)](https://github.com/algerchen2024/image-to-editable-pptx/releases/download/v0.1.0/image-to-editable-pptx-promo.mp4)
+
+[Watch or download the 48-second product demo (MP4)](https://github.com/algerchen2024/image-to-editable-pptx/releases/download/v0.1.0/image-to-editable-pptx-promo.mp4)
+
+The video shows the workflow from a flattened slide image to an editable PowerPoint reconstruction. The interface copy is in English, with Chinese narration and bilingual subtitles.
+
 ## Showcase examples included in this repository
 
 The two downloadable PPTX files below are **editable PPTX outputs produced with this skill** and are included as README showcase examples.
