@@ -8,14 +8,11 @@ A publishable ChatGPT Skill and portable reference implementation for rebuilding
 
 ## Product demo
 
-<video controls preload="metadata" playsinline width="960" poster="https://raw.githubusercontent.com/algerchen2024/image-to-editable-pptx/main/docs/showcase/promo-video-poster.png">
-  <source src="https://raw.githubusercontent.com/algerchen2024/image-to-editable-pptx/main/docs/showcase/promo-video-preview.mp4" type="video/mp4">
-  Your browser does not support inline video playback.
-</video>
+![Animated product demo preview](docs/showcase/promo-video-teaser.gif)
 
 [Open or download the full-resolution 48.8-second product demo (MP4)](https://github.com/algerchen2024/image-to-editable-pptx/releases/download/v0.1.0/image-to-editable-pptx-promo.mp4)
 
-The video shows the workflow from a flattened slide image to an editable PowerPoint reconstruction. The interface copy is in English, with Chinese narration and bilingual subtitles.
+The inline preview is a muted animation for quick reading. Open the full MP4 for Chinese narration and bilingual subtitles; the interface copy is in English.
 
 ## Showcase examples included in this repository
 
