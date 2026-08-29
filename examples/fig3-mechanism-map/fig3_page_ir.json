@@ -1,0 +1,4220 @@
+{
+ "schema_version": "1.0",
+ "pages": [
+  {
+   "id": "fig3-mechanism-map",
+   "width_px": 1024,
+   "height_px": 1536,
+   "background": "#FEFEFE",
+   "objects": [
+    {
+     "id": "t-001",
+     "type": "text",
+     "bbox": [
+      302,
+      6,
+      462,
+      42
+     ],
+     "text": "Porphyromonas gingivalis",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 23,
+      "bold": false,
+      "color": "#A02D14",
+      "align": "center",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "s-002",
+     "type": "ellipse",
+     "bbox": [
+      302,
+      56,
+      462,
+      119
+     ],
+     "z": 10,
+     "style": {
+      "fill": null,
+      "line": "#A02D14",
+      "line_width_pt": 3.0
+     }
+    },
+    {
+     "id": "s-003",
+     "type": "ellipse",
+     "bbox": [
+      322,
+      74,
+      348,
+      86
+     ],
+     "z": 10,
+     "style": {
+      "fill": "#BF5D4A",
+      "line": "#A02D14",
+      "line_width_pt": 2.5
+     }
+    },
+    {
+     "id": "s-004",
+     "type": "ellipse",
+     "bbox": [
+      400,
+      130,
+      13,
+      9
+     ],
+     "z": 10,
+     "style": {
+      "fill": "#A02D14",
+      "line": null,
+      "line_width_pt": 1.5
+     }
+    },
+    {
+     "id": "s-005",
+     "type": "ellipse",
+     "bbox": [
+      460,
+      150,
+      13,
+      9
+     ],
+     "z": 10,
+     "style": {
+      "fill": "#A02D14",
+      "line": null,
+      "line_width_pt": 1.5
+     }
+    },
+    {
+     "id": "s-006",
+     "type": "ellipse",
+     "bbox": [
+      520,
+      142,
+      13,
+      9
+     ],
+     "z": 10,
+     "style": {
+      "fill": "#A02D14",
+      "line": null,
+      "line_width_pt": 1.5
+     }
+    },
+    {
+     "id": "s-007",
+     "type": "ellipse",
+     "bbox": [
+      580,
+      155,
+      13,
+      9
+     ],
+     "z": 10,
+     "style": {
+      "fill": "#A02D14",
+      "line": null,
+      "line_width_pt": 1.5
+     }
+    },
+    {
+     "id": "a-008",
+     "type": "line",
+     "points": [
+      247,
+      180,
+      247,
+      212
+     ],
+     "z": 15,
+     "style": {
+      "color": "#3A3A3A",
+      "width_pt": 2.0,
+      "start_arrow": "none",
+      "end_arrow": "triangle",
+      "dash": "dash"
+     }
+    },
+    {
+     "id": "a-009",
+     "type": "line",
+     "points": [
+      494,
+      178,
+      494,
+      218
+     ],
+     "z": 15,
+     "style": {
+      "color": "#3A3A3A",
+      "width_pt": 2.0,
+      "start_arrow": "none",
+      "end_arrow": "triangle",
+      "dash": "dash"
+     }
+    },
+    {
+     "id": "a-010",
+     "type": "line",
+     "points": [
+      769,
+      180,
+      769,
+      212
+     ],
+     "z": 15,
+     "style": {
+      "color": "#3A3A3A",
+      "width_pt": 2.0,
+      "start_arrow": "none",
+      "end_arrow": "triangle",
+      "dash": "dash"
+     }
+    },
+    {
+     "id": "s-011",
+     "type": "round_rect",
+     "bbox": [
+      198,
+      206,
+      15,
+      92
+     ],
+     "z": 10,
+     "style": {
+      "fill": "#9B3521",
+      "line": null,
+      "line_width_pt": 1.5
+     }
+    },
+    {
+     "id": "s-012",
+     "type": "rect",
+     "bbox": [
+      221,
+      231,
+      82,
+      9
+     ],
+     "z": 10,
+     "style": {
+      "fill": "#9B3521",
+      "line": null,
+      "line_width_pt": 1.5
+     }
+    },
+    {
+     "id": "a-013",
+     "type": "line",
+     "points": [
+      222,
+      240,
+      222,
+      296
+     ],
+     "z": 15,
+     "style": {
+      "color": "#9B3521",
+      "width_pt": 1.75,
+      "start_arrow": "none",
+      "end_arrow": "none"
+     }
+    },
+    {
+     "id": "a-014",
+     "type": "line",
+     "points": [
+      240,
+      240,
+      240,
+      296
+     ],
+     "z": 15,
+     "style": {
+      "color": "#9B3521",
+      "width_pt": 1.75,
+      "start_arrow": "none",
+      "end_arrow": "none"
+     }
+    },
+    {
+     "id": "a-015",
+     "type": "line",
+     "points": [
+      258,
+      240,
+      258,
+      296
+     ],
+     "z": 15,
+     "style": {
+      "color": "#9B3521",
+      "width_pt": 1.75,
+      "start_arrow": "none",
+      "end_arrow": "none"
+     }
+    },
+    {
+     "id": "a-016",
+     "type": "line",
+     "points": [
+      273,
+      240,
+      273,
+      296
+     ],
+     "z": 15,
+     "style": {
+      "color": "#9B3521",
+      "width_pt": 1.75,
+      "start_arrow": "none",
+      "end_arrow": "none"
+     }
+    },
+    {
+     "id": "a-017",
+     "type": "line",
+     "points": [
+      288,
+      240,
+      288,
+      296
+     ],
+     "z": 15,
+     "style": {
+      "color": "#9B3521",
+      "width_pt": 1.75,
+      "start_arrow": "none",
+      "end_arrow": "none"
+     }
+    },
+    {
+     "id": "a-018",
+     "type": "line",
+     "points": [
+      300,
+      240,
+      300,
+      296
+     ],
+     "z": 15,
+     "style": {
+      "color": "#9B3521",
+      "width_pt": 1.75,
+      "start_arrow": "none",
+      "end_arrow": "none"
+     }
+    },
+    {
+     "id": "t-019",
+     "type": "text",
+     "bbox": [
+      196,
+      304,
+      62,
+      26
+     ],
+     "text": "LPS",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 15,
+      "bold": false,
+      "color": "#A02D14",
+      "align": "center",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "t-020",
+     "type": "text",
+     "bbox": [
+      148,
+      332,
+      172,
+      24
+     ],
+     "text": "(lipopolysaccharide)",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 11.5,
+      "bold": false,
+      "color": "#1C1C1C",
+      "align": "center",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "t-021",
+     "type": "text",
+     "bbox": [
+      436,
+      218,
+      104,
+      28
+     ],
+     "text": "Gingipains",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 15,
+      "bold": false,
+      "color": "#A02D14",
+      "align": "center",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "s-022",
+     "type": "round_rect",
+     "bbox": [
+      418,
+      266,
+      46,
+      47
+     ],
+     "z": 10,
+     "style": {
+      "fill": "#9B3521",
+      "line": null,
+      "line_width_pt": 1.5
+     }
+    },
+    {
+     "id": "s-023",
+     "type": "round_rect",
+     "bbox": [
+      482,
+      266,
+      48,
+      47
+     ],
+     "z": 10,
+     "style": {
+      "fill": "#9B3521",
+      "line": null,
+      "line_width_pt": 1.5
+     }
+    },
+    {
+     "id": "s-024",
+     "type": "round_rect",
+     "bbox": [
+      546,
+      266,
+      42,
+      47
+     ],
+     "z": 10,
+     "style": {
+      "fill": "#9B3521",
+      "line": null,
+      "line_width_pt": 1.5
+     }
+    },
+    {
+     "id": "t-025",
+     "type": "text",
+     "bbox": [
+      410,
+      320,
+      46,
+      24
+     ],
+     "text": "Kgp",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 11.5,
+      "bold": false,
+      "color": "#1C1C1C",
+      "align": "center",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "t-026",
+     "type": "text",
+     "bbox": [
+      470,
+      320,
+      52,
+      24
+     ],
+     "text": "RgpA",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 11.5,
+      "bold": false,
+      "color": "#1C1C1C",
+      "align": "center",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "t-027",
+     "type": "text",
+     "bbox": [
+      524,
+      320,
+      52,
+      24
+     ],
+     "text": "RgpB",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 11.5,
+      "bold": false,
+      "color": "#1C1C1C",
+      "align": "center",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "s-028",
+     "type": "ellipse",
+     "bbox": [
+      685,
+      234,
+      60,
+      60
+     ],
+     "z": 10,
+     "style": {
+      "fill": null,
+      "line": "#9B3521",
+      "line_width_pt": 3.0
+     }
+    },
+    {
+     "id": "s-029",
+     "type": "ellipse",
+     "bbox": [
+      748,
+      207,
+      50,
+      50
+     ],
+     "z": 10,
+     "style": {
+      "fill": null,
+      "line": "#9B3521",
+      "line_width_pt": 3.0
+     }
+    },
+    {
+     "id": "s-030",
+     "type": "ellipse",
+     "bbox": [
+      781,
+      258,
+      47,
+      48
+     ],
+     "z": 10,
+     "style": {
+      "fill": null,
+      "line": "#9B3521",
+      "line_width_pt": 3.0
+     }
+    },
+    {
+     "id": "s-031",
+     "type": "ellipse",
+     "bbox": [
+      700,
+      250,
+      6,
+      6
+     ],
+     "z": 10,
+     "style": {
+      "fill": "#9B3521",
+      "line": null,
+      "line_width_pt": 1.5
+     }
+    },
+    {
+     "id": "s-032",
+     "type": "ellipse",
+     "bbox": [
+      716,
+      264,
+      6,
+      6
+     ],
+     "z": 10,
+     "style": {
+      "fill": "#9B3521",
+      "line": null,
+      "line_width_pt": 1.5
+     }
+    },
+    {
+     "id": "s-033",
+     "type": "ellipse",
+     "bbox": [
+      704,
+      276,
+      6,
+      6
+     ],
+     "z": 10,
+     "style": {
+      "fill": "#9B3521",
+      "line": null,
+      "line_width_pt": 1.5
+     }
+    },
+    {
+     "id": "s-034",
+     "type": "ellipse",
+     "bbox": [
+      720,
+      244,
+      6,
+      6
+     ],
+     "z": 10,
+     "style": {
+      "fill": "#9B3521",
+      "line": null,
+      "line_width_pt": 1.5
+     }
+    },
+    {
+     "id": "s-035",
+     "type": "ellipse",
+     "bbox": [
+      710,
+      258,
+      6,
+      6
+     ],
+     "z": 10,
+     "style": {
+      "fill": "#9B3521",
+      "line": null,
+      "line_width_pt": 1.5
+     }
+    },
+    {
+     "id": "t-036",
+     "type": "text",
+     "bbox": [
+      721,
+      306,
+      62,
+      26
+     ],
+     "text": "OMVs",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 15,
+      "bold": false,
+      "color": "#A02D14",
+      "align": "center",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "t-037",
+     "type": "text",
+     "bbox": [
+      654,
+      332,
+      186,
+      26
+     ],
+     "text": "(outer membrane vesicles)",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 11.5,
+      "bold": false,
+      "color": "#1C1C1C",
+      "align": "center",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "a-038",
+     "type": "line",
+     "points": [
+      245,
+      352,
+      245,
+      376
+     ],
+     "z": 15,
+     "style": {
+      "color": "#3A3A3A",
+      "width_pt": 1.75,
+      "start_arrow": "none",
+      "end_arrow": "none",
+      "dash": "dot"
+     }
+    },
+    {
+     "id": "a-039",
+     "type": "line",
+     "points": [
+      500,
+      352,
+      500,
+      376
+     ],
+     "z": 15,
+     "style": {
+      "color": "#3A3A3A",
+      "width_pt": 1.75,
+      "start_arrow": "none",
+      "end_arrow": "none",
+      "dash": "dot"
+     }
+    },
+    {
+     "id": "a-040",
+     "type": "line",
+     "points": [
+      793,
+      352,
+      793,
+      376
+     ],
+     "z": 15,
+     "style": {
+      "color": "#3A3A3A",
+      "width_pt": 1.75,
+      "start_arrow": "none",
+      "end_arrow": "none",
+      "dash": "dot"
+     }
+    },
+    {
+     "id": "a-041",
+     "type": "line",
+     "points": [
+      165,
+      378,
+      840,
+      378
+     ],
+     "z": 15,
+     "style": {
+      "color": "#3A3A3A",
+      "width_pt": 1.75,
+      "start_arrow": "none",
+      "end_arrow": "none",
+      "dash": "dot"
+     }
+    },
+    {
+     "id": "a-042",
+     "type": "line",
+     "points": [
+      165,
+      380,
+      165,
+      408
+     ],
+     "z": 15,
+     "style": {
+      "color": "#3A3A3A",
+      "width_pt": 1.75,
+      "start_arrow": "none",
+      "end_arrow": "triangle",
+      "dash": "dot"
+     }
+    },
+    {
+     "id": "a-043",
+     "type": "line",
+     "points": [
+      512,
+      380,
+      512,
+      408
+     ],
+     "z": 15,
+     "style": {
+      "color": "#3A3A3A",
+      "width_pt": 1.75,
+      "start_arrow": "none",
+      "end_arrow": "triangle",
+      "dash": "dot"
+     }
+    },
+    {
+     "id": "a-044",
+     "type": "line",
+     "points": [
+      795,
+      380,
+      795,
+      408
+     ],
+     "z": 15,
+     "style": {
+      "color": "#3A3A3A",
+      "width_pt": 1.75,
+      "start_arrow": "none",
+      "end_arrow": "triangle",
+      "dash": "dot"
+     }
+    },
+    {
+     "id": "s-045",
+     "type": "round_rect",
+     "bbox": [
+      48,
+      412,
+      243,
+      82
+     ],
+     "z": 10,
+     "style": {
+      "fill": "#F6F3F8",
+      "line": "#492D6B",
+      "line_width_pt": 2.0,
+      "dash": "dot"
+     }
+    },
+    {
+     "id": "s-046",
+     "type": "round_rect",
+     "bbox": [
+      372,
+      412,
+      259,
+      82
+     ],
+     "z": 10,
+     "style": {
+      "fill": "#F6F3F8",
+      "line": "#492D6B",
+      "line_width_pt": 2.0,
+      "dash": "dot"
+     }
+    },
+    {
+     "id": "s-047",
+     "type": "round_rect",
+     "bbox": [
+      680,
+      412,
+      311,
+      81
+     ],
+     "z": 10,
+     "style": {
+      "fill": "#F6F3F8",
+      "line": "#492D6B",
+      "line_width_pt": 2.0,
+      "dash": "dot"
+     }
+    },
+    {
+     "id": "s-048",
+     "type": "ellipse",
+     "bbox": [
+      56,
+      424,
+      27,
+      27
+     ],
+     "z": 10,
+     "style": {
+      "fill": null,
+      "line": "#4A2F6F",
+      "line_width_pt": 2.25
+     }
+    },
+    {
+     "id": "s-049",
+     "type": "ellipse",
+     "bbox": [
+      383,
+      424,
+      27,
+      27
+     ],
+     "z": 10,
+     "style": {
+      "fill": null,
+      "line": "#4A2F6F",
+      "line_width_pt": 2.25
+     }
+    },
+    {
+     "id": "s-050",
+     "type": "ellipse",
+     "bbox": [
+      687,
+      424,
+      27,
+      27
+     ],
+     "z": 10,
+     "style": {
+      "fill": null,
+      "line": "#4A2F6F",
+      "line_width_pt": 2.25
+     }
+    },
+    {
+     "id": "t-051",
+     "type": "text",
+     "bbox": [
+      96,
+      421,
+      180,
+      26
+     ],
+     "text": "Tau proteolysis",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 15,
+      "bold": false,
+      "color": "#381F61",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "t-052",
+     "type": "text",
+     "bbox": [
+      92,
+      447,
+      190,
+      26
+     ],
+     "text": "and NFT formation",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 15,
+      "bold": false,
+      "color": "#381F61",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "t-053",
+     "type": "text",
+     "bbox": [
+      420,
+      421,
+      180,
+      26
+     ],
+     "text": "APP processing",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 15,
+      "bold": false,
+      "color": "#381F61",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "t-054",
+     "type": "text",
+     "bbox": [
+      416,
+      447,
+      190,
+      26
+     ],
+     "text": "and Aβ deposition",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 15,
+      "bold": false,
+      "color": "#381F61",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "t-055",
+     "type": "text",
+     "bbox": [
+      716,
+      419,
+      240,
+      26
+     ],
+     "text": "AChE-PAS nucleation of Aβ",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 15,
+      "bold": false,
+      "color": "#381F61",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "t-056",
+     "type": "text",
+     "bbox": [
+      712,
+      445,
+      250,
+      26
+     ],
+     "text": "and increased AChE activity",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 15,
+      "bold": false,
+      "color": "#381F61",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "t-057",
+     "type": "text",
+     "bbox": [
+      60,
+      488,
+      246,
+      26
+     ],
+     "text": "Gingipains (Kgp, RgpA, RgpB)",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 13,
+      "bold": false,
+      "color": "#A02D14",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "t-058",
+     "type": "text",
+     "bbox": [
+      378,
+      488,
+      250,
+      26
+     ],
+     "text": "Gingipains (Kgp, RgpA, RgpB)",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 13,
+      "bold": false,
+      "color": "#A02D14",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "t-059",
+     "type": "text",
+     "bbox": [
+      700,
+      488,
+      110,
+      26
+     ],
+     "text": "LPS/OMVs",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 13,
+      "bold": false,
+      "color": "#A02D14",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "a-060",
+     "type": "line",
+     "points": [
+      124,
+      519,
+      124,
+      548
+     ],
+     "z": 15,
+     "style": {
+      "color": "#9B3521",
+      "width_pt": 6.0,
+      "start_arrow": "none",
+      "end_arrow": "triangle"
+     }
+    },
+    {
+     "id": "a-061",
+     "type": "line",
+     "points": [
+      166,
+      519,
+      166,
+      548
+     ],
+     "z": 15,
+     "style": {
+      "color": "#9B3521",
+      "width_pt": 6.0,
+      "start_arrow": "none",
+      "end_arrow": "triangle"
+     }
+    },
+    {
+     "id": "a-062",
+     "type": "line",
+     "points": [
+      208,
+      519,
+      208,
+      548
+     ],
+     "z": 15,
+     "style": {
+      "color": "#9B3521",
+      "width_pt": 6.0,
+      "start_arrow": "none",
+      "end_arrow": "triangle"
+     }
+    },
+    {
+     "id": "a-063",
+     "type": "line",
+     "points": [
+      462,
+      519,
+      462,
+      548
+     ],
+     "z": 15,
+     "style": {
+      "color": "#9B3521",
+      "width_pt": 6.0,
+      "start_arrow": "none",
+      "end_arrow": "triangle"
+     }
+    },
+    {
+     "id": "a-064",
+     "type": "line",
+     "points": [
+      494,
+      519,
+      494,
+      548
+     ],
+     "z": 15,
+     "style": {
+      "color": "#9B3521",
+      "width_pt": 6.0,
+      "start_arrow": "none",
+      "end_arrow": "triangle"
+     }
+    },
+    {
+     "id": "a-065",
+     "type": "line",
+     "points": [
+      526,
+      519,
+      526,
+      548
+     ],
+     "z": 15,
+     "style": {
+      "color": "#9B3521",
+      "width_pt": 6.0,
+      "start_arrow": "none",
+      "end_arrow": "triangle"
+     }
+    },
+    {
+     "id": "a-066",
+     "type": "line",
+     "points": [
+      140,
+      551,
+      140,
+      582
+     ],
+     "z": 15,
+     "style": {
+      "color": "#3A3A3A",
+      "width_pt": 2.0,
+      "start_arrow": "none",
+      "end_arrow": "triangle",
+      "dash": "dash"
+     }
+    },
+    {
+     "id": "a-067",
+     "type": "line",
+     "points": [
+      183,
+      551,
+      183,
+      582
+     ],
+     "z": 15,
+     "style": {
+      "color": "#3A3A3A",
+      "width_pt": 2.0,
+      "start_arrow": "none",
+      "end_arrow": "triangle",
+      "dash": "dash"
+     }
+    },
+    {
+     "id": "a-068",
+     "type": "line",
+     "points": [
+      463,
+      551,
+      463,
+      574
+     ],
+     "z": 15,
+     "style": {
+      "color": "#3A3A3A",
+      "width_pt": 2.0,
+      "start_arrow": "none",
+      "end_arrow": "triangle",
+      "dash": "dash"
+     }
+    },
+    {
+     "id": "a-069",
+     "type": "line",
+     "points": [
+      505,
+      551,
+      505,
+      574
+     ],
+     "z": 15,
+     "style": {
+      "color": "#3A3A3A",
+      "width_pt": 2.0,
+      "start_arrow": "none",
+      "end_arrow": "triangle",
+      "dash": "dash"
+     }
+    },
+    {
+     "id": "t-070",
+     "type": "text",
+     "bbox": [
+      22,
+      583,
+      60,
+      26
+     ],
+     "text": "Tau",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 14,
+      "bold": false,
+      "color": "#0C646D",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "t-071",
+     "type": "text",
+     "bbox": [
+      356,
+      581,
+      60,
+      26
+     ],
+     "text": "APP",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 14,
+      "bold": false,
+      "color": "#0C646D",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "a-072",
+     "type": "line",
+     "points": [
+      78,
+      594,
+      300,
+      594
+     ],
+     "z": 15,
+     "style": {
+      "color": "#0D5961",
+      "width_pt": 3.5,
+      "start_arrow": "none",
+      "end_arrow": "triangle"
+     }
+    },
+    {
+     "id": "a-073",
+     "type": "line",
+     "points": [
+      163,
+      608,
+      163,
+      646
+     ],
+     "z": 15,
+     "style": {
+      "color": "#3A3A3A",
+      "width_pt": 2.0,
+      "start_arrow": "none",
+      "end_arrow": "triangle",
+      "dash": "dash"
+     }
+    },
+    {
+     "id": "a-074",
+     "type": "line",
+     "points": [
+      62,
+      658,
+      116,
+      670
+     ],
+     "z": 15,
+     "style": {
+      "color": "#0D5961",
+      "width_pt": 3.0,
+      "start_arrow": "none",
+      "end_arrow": "triangle"
+     }
+    },
+    {
+     "id": "a-075",
+     "type": "line",
+     "points": [
+      186,
+      658,
+      240,
+      670
+     ],
+     "z": 15,
+     "style": {
+      "color": "#0D5961",
+      "width_pt": 3.0,
+      "start_arrow": "none",
+      "end_arrow": "triangle"
+     }
+    },
+    {
+     "id": "t-076",
+     "type": "text",
+     "bbox": [
+      18,
+      664,
+      60,
+      24
+     ],
+     "text": "Tau",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 14,
+      "bold": false,
+      "color": "#0C646D",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "t-077",
+     "type": "text",
+     "bbox": [
+      16,
+      685,
+      100,
+      24
+     ],
+     "text": "fragments",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 14,
+      "bold": false,
+      "color": "#0C646D",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "a-078",
+     "type": "line",
+     "points": [
+      155,
+      700,
+      155,
+      720
+     ],
+     "z": 15,
+     "style": {
+      "color": "#3A3A3A",
+      "width_pt": 2.0,
+      "start_arrow": "none",
+      "end_arrow": "triangle",
+      "dash": "dash"
+     }
+    },
+    {
+     "id": "s-079",
+     "type": "rect",
+     "bbox": [
+      78,
+      718,
+      208,
+      44
+     ],
+     "z": 10,
+     "style": {
+      "fill": null,
+      "line": "#1C1C1C",
+      "line_width_pt": 1.5,
+      "dash": "dot"
+     }
+    },
+    {
+     "id": "t-080",
+     "type": "text",
+     "bbox": [
+      84,
+      719,
+      200,
+      22
+     ],
+     "text": "Hyperphosphorylation",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 12.5,
+      "bold": false,
+      "color": "#1C1C1C",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "t-081",
+     "type": "text",
+     "bbox": [
+      82,
+      740,
+      196,
+      22
+     ],
+     "text": "(dysregulated kinases)",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 11.5,
+      "bold": false,
+      "color": "#1C1C1C",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "a-082",
+     "type": "line",
+     "points": [
+      155,
+      762,
+      155,
+      784
+     ],
+     "z": 15,
+     "style": {
+      "color": "#3A3A3A",
+      "width_pt": 2.0,
+      "start_arrow": "none",
+      "end_arrow": "triangle",
+      "dash": "dash"
+     }
+    },
+    {
+     "id": "t-083",
+     "type": "text",
+     "bbox": [
+      132,
+      785,
+      60,
+      24
+     ],
+     "text": "PLK2",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 13,
+      "bold": false,
+      "color": "#0C646D",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "a-084",
+     "type": "line",
+     "points": [
+      155,
+      818,
+      155,
+      856
+     ],
+     "z": 15,
+     "style": {
+      "color": "#3A3A3A",
+      "width_pt": 2.0,
+      "start_arrow": "none",
+      "end_arrow": "triangle",
+      "dash": "dash"
+     }
+    },
+    {
+     "id": "t-085",
+     "type": "text",
+     "bbox": [
+      34,
+      858,
+      210,
+      24
+     ],
+     "text": "Paired helical filaments",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 12.5,
+      "bold": false,
+      "color": "#2B1459",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "t-086",
+     "type": "text",
+     "bbox": [
+      84,
+      880,
+      70,
+      24
+     ],
+     "text": "(PHF)",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 12.5,
+      "bold": false,
+      "color": "#2B1459",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "t-087",
+     "type": "text",
+     "bbox": [
+      248,
+      839,
+      66,
+      24
+     ],
+     "text": "CALD1",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 13,
+      "bold": false,
+      "color": "#0C646D",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "t-088",
+     "type": "text",
+     "bbox": [
+      353,
+      839,
+      56,
+      24
+     ],
+     "text": "HES1",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 13,
+      "bold": false,
+      "color": "#0C646D",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "a-089",
+     "type": "line",
+     "points": [
+      155,
+      906,
+      155,
+      952
+     ],
+     "z": 15,
+     "style": {
+      "color": "#3A3A3A",
+      "width_pt": 2.0,
+      "start_arrow": "none",
+      "end_arrow": "triangle",
+      "dash": "dash"
+     }
+    },
+    {
+     "id": "s-090",
+     "type": "ellipse",
+     "bbox": [
+      78,
+      960,
+      96,
+      76
+     ],
+     "z": 10,
+     "style": {
+      "fill": "#8B6FAD",
+      "line": "#684988",
+      "line_width_pt": 3.5,
+      "fill_transparency": 55
+     }
+    },
+    {
+     "id": "s-091",
+     "type": "ellipse",
+     "bbox": [
+      96,
+      976,
+      60,
+      44
+     ],
+     "z": 10,
+     "style": {
+      "fill": null,
+      "line": "#684988",
+      "line_width_pt": 2.5
+     }
+    },
+    {
+     "id": "s-092",
+     "type": "rect",
+     "bbox": [
+      166,
+      1000,
+      132,
+      48
+     ],
+     "z": 10,
+     "style": {
+      "fill": null,
+      "line": "#492D6B",
+      "line_width_pt": 1.75,
+      "dash": "dot"
+     }
+    },
+    {
+     "id": "t-093",
+     "type": "text",
+     "bbox": [
+      170,
+      1000,
+      150,
+      22
+     ],
+     "text": "Neurofibrillary",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 12.5,
+      "bold": false,
+      "color": "#2B1459",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "t-094",
+     "type": "text",
+     "bbox": [
+      170,
+      1023,
+      150,
+      22
+     ],
+     "text": "tangles (NFTs)",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 12.5,
+      "bold": false,
+      "color": "#2B1459",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "a-095",
+     "type": "line",
+     "points": [
+      215,
+      1052,
+      215,
+      1084
+     ],
+     "z": 15,
+     "style": {
+      "color": "#3A3A3A",
+      "width_pt": 1.75,
+      "start_arrow": "none",
+      "end_arrow": "triangle",
+      "dash": "dot"
+     }
+    },
+    {
+     "id": "a-096",
+     "type": "line",
+     "points": [
+      410,
+      624,
+      560,
+      624
+     ],
+     "z": 15,
+     "style": {
+      "color": "#6E9BA6",
+      "width_pt": 2.5,
+      "start_arrow": "none",
+      "end_arrow": "none"
+     }
+    },
+    {
+     "id": "a-097",
+     "type": "line",
+     "points": [
+      410,
+      658,
+      560,
+      658
+     ],
+     "z": 15,
+     "style": {
+      "color": "#6E9BA6",
+      "width_pt": 2.5,
+      "start_arrow": "none",
+      "end_arrow": "none"
+     }
+    },
+    {
+     "id": "a-098",
+     "type": "line",
+     "points": [
+      420,
+      627,
+      420,
+      655
+     ],
+     "z": 15,
+     "style": {
+      "color": "#6E9BA6",
+      "width_pt": 1.5,
+      "start_arrow": "none",
+      "end_arrow": "none"
+     }
+    },
+    {
+     "id": "a-099",
+     "type": "line",
+     "points": [
+      434,
+      627,
+      434,
+      655
+     ],
+     "z": 15,
+     "style": {
+      "color": "#6E9BA6",
+      "width_pt": 1.5,
+      "start_arrow": "none",
+      "end_arrow": "none"
+     }
+    },
+    {
+     "id": "a-100",
+     "type": "line",
+     "points": [
+      448,
+      627,
+      448,
+      655
+     ],
+     "z": 15,
+     "style": {
+      "color": "#6E9BA6",
+      "width_pt": 1.5,
+      "start_arrow": "none",
+      "end_arrow": "none"
+     }
+    },
+    {
+     "id": "a-101",
+     "type": "line",
+     "points": [
+      462,
+      627,
+      462,
+      655
+     ],
+     "z": 15,
+     "style": {
+      "color": "#6E9BA6",
+      "width_pt": 1.5,
+      "start_arrow": "none",
+      "end_arrow": "none"
+     }
+    },
+    {
+     "id": "a-102",
+     "type": "line",
+     "points": [
+      492,
+      627,
+      492,
+      655
+     ],
+     "z": 15,
+     "style": {
+      "color": "#6E9BA6",
+      "width_pt": 1.5,
+      "start_arrow": "none",
+      "end_arrow": "none"
+     }
+    },
+    {
+     "id": "a-103",
+     "type": "line",
+     "points": [
+      506,
+      627,
+      506,
+      655
+     ],
+     "z": 15,
+     "style": {
+      "color": "#6E9BA6",
+      "width_pt": 1.5,
+      "start_arrow": "none",
+      "end_arrow": "none"
+     }
+    },
+    {
+     "id": "a-104",
+     "type": "line",
+     "points": [
+      520,
+      627,
+      520,
+      655
+     ],
+     "z": 15,
+     "style": {
+      "color": "#6E9BA6",
+      "width_pt": 1.5,
+      "start_arrow": "none",
+      "end_arrow": "none"
+     }
+    },
+    {
+     "id": "a-105",
+     "type": "line",
+     "points": [
+      534,
+      627,
+      534,
+      655
+     ],
+     "z": 15,
+     "style": {
+      "color": "#6E9BA6",
+      "width_pt": 1.5,
+      "start_arrow": "none",
+      "end_arrow": "none"
+     }
+    },
+    {
+     "id": "a-106",
+     "type": "line",
+     "points": [
+      548,
+      627,
+      548,
+      655
+     ],
+     "z": 15,
+     "style": {
+      "color": "#6E9BA6",
+      "width_pt": 1.5,
+      "start_arrow": "none",
+      "end_arrow": "none"
+     }
+    },
+    {
+     "id": "s-107",
+     "type": "round_rect",
+     "bbox": [
+      468,
+      576,
+      22,
+      112
+     ],
+     "z": 10,
+     "style": {
+      "fill": "#1B6A72",
+      "line": null,
+      "line_width_pt": 1.5
+     }
+    },
+    {
+     "id": "t-108",
+     "type": "text",
+     "bbox": [
+      536,
+      570,
+      100,
+      24
+     ],
+     "text": "β-secretase",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 12.5,
+      "bold": false,
+      "color": "#0C646D",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "t-109",
+     "type": "text",
+     "bbox": [
+      538,
+      592,
+      90,
+      22
+     ],
+     "text": "(BACE1)",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 11.5,
+      "bold": false,
+      "color": "#0C646D",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "t-110",
+     "type": "text",
+     "bbox": [
+      540,
+      658,
+      100,
+      24
+     ],
+     "text": "γ-secretase",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 12.5,
+      "bold": false,
+      "color": "#0C646D",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "t-111",
+     "type": "text",
+     "bbox": [
+      536,
+      680,
+      115,
+      22
+     ],
+     "text": "(presenilin 1)",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 11.5,
+      "bold": false,
+      "color": "#0C646D",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "a-112",
+     "type": "line",
+     "points": [
+      470,
+      696,
+      470,
+      716
+     ],
+     "z": 15,
+     "style": {
+      "color": "#3A3A3A",
+      "width_pt": 2.5,
+      "start_arrow": "none",
+      "end_arrow": "triangle"
+     }
+    },
+    {
+     "id": "s-113",
+     "type": "rect",
+     "bbox": [
+      408,
+      717,
+      164,
+      36
+     ],
+     "z": 10,
+     "style": {
+      "fill": null,
+      "line": "#1C1C1C",
+      "line_width_pt": 1.5,
+      "dash": "dot"
+     }
+    },
+    {
+     "id": "t-114",
+     "type": "text",
+     "bbox": [
+      402,
+      720,
+      180,
+      24
+     ],
+     "text": "Aβ peptides (Aβ40/42)",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 12.5,
+      "bold": false,
+      "color": "#1C1C1C",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "a-115",
+     "type": "line",
+     "points": [
+      470,
+      762,
+      492,
+      800
+     ],
+     "z": 15,
+     "style": {
+      "color": "#0D5961",
+      "width_pt": 2.5,
+      "start_arrow": "none",
+      "end_arrow": "triangle",
+      "dash": "dash"
+     }
+    },
+    {
+     "id": "t-116",
+     "type": "text",
+     "bbox": [
+      450,
+      802,
+      90,
+      24
+     ],
+     "text": "Oligomers",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 12.5,
+      "bold": false,
+      "color": "#1C1C1C",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "a-117",
+     "type": "line",
+     "points": [
+      492,
+      830,
+      492,
+      876
+     ],
+     "z": 15,
+     "style": {
+      "color": "#0D5961",
+      "width_pt": 2.5,
+      "start_arrow": "none",
+      "end_arrow": "triangle"
+     }
+    },
+    {
+     "id": "t-118",
+     "type": "text",
+     "bbox": [
+      466,
+      879,
+      80,
+      24
+     ],
+     "text": "Fibrils",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 12.5,
+      "bold": false,
+      "color": "#1C1C1C",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "s-119",
+     "type": "ellipse",
+     "bbox": [
+      354,
+      830,
+      54,
+      36
+     ],
+     "z": 10,
+     "style": {
+      "fill": null,
+      "line": "#0D5961",
+      "line_width_pt": 2.25
+     }
+    },
+    {
+     "id": "a-120",
+     "type": "line",
+     "points": [
+      448,
+      918,
+      528,
+      918
+     ],
+     "z": 15,
+     "style": {
+      "color": "#0D5961",
+      "width_pt": 8.0,
+      "start_arrow": "none",
+      "end_arrow": "none"
+     }
+    },
+    {
+     "id": "a-121",
+     "type": "line",
+     "points": [
+      528,
+      916,
+      528,
+      950
+     ],
+     "z": 15,
+     "style": {
+      "color": "#0D5961",
+      "width_pt": 4.0,
+      "start_arrow": "none",
+      "end_arrow": "triangle"
+     }
+    },
+    {
+     "id": "s-122",
+     "type": "ellipse",
+     "bbox": [
+      449,
+      961,
+      78,
+      52
+     ],
+     "z": 5,
+     "style": {
+      "fill": "#684988",
+      "line": null,
+      "line_width_pt": 1.5,
+      "fill_transparency": 15
+     }
+    },
+    {
+     "id": "s-123",
+     "type": "ellipse",
+     "bbox": [
+      462,
+      972,
+      46,
+      30
+     ],
+     "z": 6,
+     "style": {
+      "fill": "#8B6FAD",
+      "line": null,
+      "line_width_pt": 1.5,
+      "fill_transparency": 5
+     }
+    },
+    {
+     "id": "s-124",
+     "type": "round_rect",
+     "bbox": [
+      431,
+      958,
+      124,
+      113
+     ],
+     "z": 4,
+     "style": {
+      "fill": "#F6F3F8",
+      "line": "#492D6B",
+      "line_width_pt": 1.75,
+      "dash": "dot"
+     }
+    },
+    {
+     "id": "t-125",
+     "type": "text",
+     "bbox": [
+      426,
+      1022,
+      124,
+      24
+     ],
+     "text": "Aβ deposition",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 12.5,
+      "bold": false,
+      "color": "#2B1459",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "t-126",
+     "type": "text",
+     "bbox": [
+      422,
+      1044,
+      140,
+      22
+     ],
+     "text": "(amyloid plaques)",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 11.5,
+      "bold": false,
+      "color": "#2B1459",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "a-127",
+     "type": "line",
+     "points": [
+      505,
+      1073,
+      505,
+      1084
+     ],
+     "z": 15,
+     "style": {
+      "color": "#3A3A3A",
+      "width_pt": 1.75,
+      "start_arrow": "none",
+      "end_arrow": "triangle",
+      "dash": "dot"
+     }
+    },
+    {
+     "id": "a-128",
+     "type": "line",
+     "points": [
+      338,
+      575,
+      338,
+      730
+     ],
+     "z": 3,
+     "style": {
+      "color": "#3A3A3A",
+      "width_pt": 1.25,
+      "start_arrow": "none",
+      "end_arrow": "none",
+      "dash": "dot"
+     }
+    },
+    {
+     "id": "s-129",
+     "type": "round_rect",
+     "bbox": [
+      691,
+      519,
+      14,
+      55
+     ],
+     "z": 10,
+     "style": {
+      "fill": "#9B3521",
+      "line": null,
+      "line_width_pt": 1.5
+     }
+    },
+    {
+     "id": "a-130",
+     "type": "line",
+     "points": [
+      716,
+      524,
+      716,
+      556
+     ],
+     "z": 15,
+     "style": {
+      "color": "#9B3521",
+      "width_pt": 1.5,
+      "start_arrow": "none",
+      "end_arrow": "none"
+     }
+    },
+    {
+     "id": "a-131",
+     "type": "line",
+     "points": [
+      731,
+      524,
+      731,
+      556
+     ],
+     "z": 15,
+     "style": {
+      "color": "#9B3521",
+      "width_pt": 1.5,
+      "start_arrow": "none",
+      "end_arrow": "none"
+     }
+    },
+    {
+     "id": "a-132",
+     "type": "line",
+     "points": [
+      746,
+      524,
+      746,
+      556
+     ],
+     "z": 15,
+     "style": {
+      "color": "#9B3521",
+      "width_pt": 1.5,
+      "start_arrow": "none",
+      "end_arrow": "none"
+     }
+    },
+    {
+     "id": "s-133",
+     "type": "ellipse",
+     "bbox": [
+      752,
+      538,
+      32,
+      32
+     ],
+     "z": 10,
+     "style": {
+      "fill": null,
+      "line": "#9B3521",
+      "line_width_pt": 2.5
+     }
+    },
+    {
+     "id": "s-134",
+     "type": "ellipse",
+     "bbox": [
+      784,
+      521,
+      30,
+      30
+     ],
+     "z": 10,
+     "style": {
+      "fill": null,
+      "line": "#9B3521",
+      "line_width_pt": 2.5
+     }
+    },
+    {
+     "id": "a-135",
+     "type": "line",
+     "points": [
+      748,
+      560,
+      748,
+      606
+     ],
+     "z": 15,
+     "style": {
+      "color": "#3A3A3A",
+      "width_pt": 2.5,
+      "start_arrow": "none",
+      "end_arrow": "triangle",
+      "dash": "dash"
+     }
+    },
+    {
+     "id": "s-136",
+     "type": "ellipse",
+     "bbox": [
+      714,
+      617,
+      68,
+      84
+     ],
+     "z": 10,
+     "style": {
+      "fill": "#B9D6D8",
+      "line": "#58387A",
+      "line_width_pt": 2.25
+     }
+    },
+    {
+     "id": "t-137",
+     "type": "text",
+     "bbox": [
+      722,
+      642,
+      70,
+      26
+     ],
+     "text": "AChE",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 13,
+      "bold": false,
+      "color": "#0A525E",
+      "align": "center",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "a-138",
+     "type": "line",
+     "points": [
+      660,
+      671,
+      795,
+      671
+     ],
+     "z": 15,
+     "style": {
+      "color": "#58387A",
+      "width_pt": 2.25,
+      "start_arrow": "none",
+      "end_arrow": "none"
+     }
+    },
+    {
+     "id": "a-139",
+     "type": "line",
+     "points": [
+      660,
+      685,
+      795,
+      685
+     ],
+     "z": 15,
+     "style": {
+      "color": "#58387A",
+      "width_pt": 2.25,
+      "start_arrow": "none",
+      "end_arrow": "none"
+     }
+    },
+    {
+     "id": "t-140",
+     "type": "text",
+     "bbox": [
+      818,
+      660,
+      50,
+      24
+     ],
+     "text": "PAS",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 12.5,
+      "bold": false,
+      "color": "#381F61",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "s-141",
+     "type": "rect",
+     "bbox": [
+      672,
+      704,
+      150,
+      28
+     ],
+     "z": 10,
+     "style": {
+      "fill": null,
+      "line": "#1C1C1C",
+      "line_width_pt": 1.5,
+      "dash": "dot"
+     }
+    },
+    {
+     "id": "t-142",
+     "type": "text",
+     "bbox": [
+      676,
+      705,
+      145,
+      22
+     ],
+     "text": "AChE-PAS complex",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 12,
+      "bold": false,
+      "color": "#1C1C1C",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "s-143",
+     "type": "rect",
+     "bbox": [
+      656,
+      728,
+      200,
+      28
+     ],
+     "z": 10,
+     "style": {
+      "fill": null,
+      "line": "#1C1C1C",
+      "line_width_pt": 1.5,
+      "dash": "dot"
+     }
+    },
+    {
+     "id": "t-144",
+     "type": "text",
+     "bbox": [
+      660,
+      729,
+      192,
+      22
+     ],
+     "text": "nucleates Aβ aggregation",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 12,
+      "bold": false,
+      "color": "#1C1C1C",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "a-145",
+     "type": "line",
+     "points": [
+      757,
+      755,
+      757,
+      784
+     ],
+     "z": 15,
+     "style": {
+      "color": "#3A3A3A",
+      "width_pt": 2.0,
+      "start_arrow": "none",
+      "end_arrow": "triangle",
+      "dash": "dash"
+     }
+    },
+    {
+     "id": "s-146",
+     "type": "rect",
+     "bbox": [
+      648,
+      786,
+      212,
+      50
+     ],
+     "z": 10,
+     "style": {
+      "fill": null,
+      "line": "#1C1C1C",
+      "line_width_pt": 1.5,
+      "dash": "dot"
+     }
+    },
+    {
+     "id": "t-147",
+     "type": "text",
+     "bbox": [
+      649,
+      788,
+      178,
+      22
+     ],
+     "text": "Enhanced Aβ aggregation",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 12,
+      "bold": false,
+      "color": "#1C1C1C",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "t-148",
+     "type": "text",
+     "bbox": [
+      678,
+      810,
+      145,
+      22
+     ],
+     "text": "(oligomers/fibrils)",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 11,
+      "bold": false,
+      "color": "#1C1C1C",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "a-149",
+     "type": "line",
+     "points": [
+      648,
+      500,
+      648,
+      784
+     ],
+     "z": 15,
+     "style": {
+      "color": "#3A3A3A",
+      "width_pt": 1.75,
+      "start_arrow": "none",
+      "end_arrow": "triangle",
+      "dash": "dot"
+     }
+    },
+    {
+     "id": "s-150",
+     "type": "rect",
+     "bbox": [
+      866,
+      770,
+      146,
+      52
+     ],
+     "z": 10,
+     "style": {
+      "fill": null,
+      "line": "#1C1C1C",
+      "line_width_pt": 1.5,
+      "dash": "dot"
+     }
+    },
+    {
+     "id": "t-151",
+     "type": "text",
+     "bbox": [
+      888,
+      772,
+      100,
+      22
+     ],
+     "text": "Increased",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 12.5,
+      "bold": false,
+      "color": "#0C646D",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "t-152",
+     "type": "text",
+     "bbox": [
+      872,
+      794,
+      130,
+      22
+     ],
+     "text": "AChE activity",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 12.5,
+      "bold": false,
+      "color": "#0C646D",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "a-153",
+     "type": "line",
+     "points": [
+      860,
+      563,
+      930,
+      563
+     ],
+     "z": 15,
+     "style": {
+      "color": "#3A3A3A",
+      "width_pt": 1.75,
+      "start_arrow": "none",
+      "end_arrow": "none",
+      "dash": "dot"
+     }
+    },
+    {
+     "id": "a-154",
+     "type": "line",
+     "points": [
+      930,
+      563,
+      930,
+      766
+     ],
+     "z": 15,
+     "style": {
+      "color": "#3A3A3A",
+      "width_pt": 1.75,
+      "start_arrow": "none",
+      "end_arrow": "triangle",
+      "dash": "dot"
+     }
+    },
+    {
+     "id": "a-155",
+     "type": "line",
+     "points": [
+      930,
+      833,
+      930,
+      874
+     ],
+     "z": 15,
+     "style": {
+      "color": "#3A3A3A",
+      "width_pt": 1.75,
+      "start_arrow": "none",
+      "end_arrow": "triangle",
+      "dash": "dot"
+     }
+    },
+    {
+     "id": "t-156",
+     "type": "text",
+     "bbox": [
+      894,
+      876,
+      70,
+      24
+     ],
+     "text": "AChE",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 13,
+      "bold": false,
+      "color": "#0C646D",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "t-157",
+     "type": "text",
+     "bbox": [
+      838,
+      894,
+      50,
+      24
+     ],
+     "text": "ACh",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 12.5,
+      "bold": false,
+      "color": "#1C1C1C",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "a-158",
+     "type": "line",
+     "points": [
+      882,
+      906,
+      948,
+      906
+     ],
+     "z": 15,
+     "style": {
+      "color": "#3A3A3A",
+      "width_pt": 1.75,
+      "start_arrow": "none",
+      "end_arrow": "triangle",
+      "dash": "dot"
+     }
+    },
+    {
+     "id": "t-159",
+     "type": "text",
+     "bbox": [
+      950,
+      893,
+      74,
+      24
+     ],
+     "text": "Choline",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 12.5,
+      "bold": false,
+      "color": "#1C1C1C",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "t-160",
+     "type": "text",
+     "bbox": [
+      968,
+      914,
+      24,
+      24
+     ],
+     "text": "+",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 12.5,
+      "bold": false,
+      "color": "#1C1C1C",
+      "align": "center",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "t-161",
+     "type": "text",
+     "bbox": [
+      952,
+      929,
+      72,
+      24
+     ],
+     "text": "Acetate",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 12.5,
+      "bold": false,
+      "color": "#1C1C1C",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "a-162",
+     "type": "line",
+     "points": [
+      940,
+      926,
+      940,
+      998
+     ],
+     "z": 15,
+     "style": {
+      "color": "#0D5961",
+      "width_pt": 2.0,
+      "start_arrow": "none",
+      "end_arrow": "triangle",
+      "dash": "dash"
+     }
+    },
+    {
+     "id": "t-163",
+     "type": "text",
+     "bbox": [
+      910,
+      999,
+      75,
+      24
+     ],
+     "text": "UCHL1",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 12.5,
+      "bold": false,
+      "color": "#0C646D",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "a-164",
+     "type": "line",
+     "points": [
+      753,
+      846,
+      753,
+      884
+     ],
+     "z": 15,
+     "style": {
+      "color": "#0D5961",
+      "width_pt": 10.0,
+      "start_arrow": "none",
+      "end_arrow": "triangle"
+     }
+    },
+    {
+     "id": "a-165",
+     "type": "line",
+     "points": [
+      690,
+      856,
+      746,
+      882
+     ],
+     "z": 15,
+     "style": {
+      "color": "#0D5961",
+      "width_pt": 6.5,
+      "start_arrow": "none",
+      "end_arrow": "none"
+     }
+    },
+    {
+     "id": "a-166",
+     "type": "line",
+     "points": [
+      812,
+      858,
+      762,
+      882
+     ],
+     "z": 15,
+     "style": {
+      "color": "#0D5961",
+      "width_pt": 6.5,
+      "start_arrow": "none",
+      "end_arrow": "none"
+     }
+    },
+    {
+     "id": "a-167",
+     "type": "line",
+     "points": [
+      770,
+      894,
+      770,
+      958
+     ],
+     "z": 15,
+     "style": {
+      "color": "#3A3A3A",
+      "width_pt": 2.0,
+      "start_arrow": "none",
+      "end_arrow": "triangle",
+      "dash": "dash"
+     }
+    },
+    {
+     "id": "s-168",
+     "type": "round_rect",
+     "bbox": [
+      674,
+      962,
+      218,
+      62
+     ],
+     "z": 10,
+     "style": {
+      "fill": "#F6F3F8",
+      "line": "#492D6B",
+      "line_width_pt": 2.0,
+      "dash": "dot"
+     }
+    },
+    {
+     "id": "t-169",
+     "type": "text",
+     "bbox": [
+      698,
+      968,
+      175,
+      24
+     ],
+     "text": "Reduced synaptic ACh",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 12.5,
+      "bold": false,
+      "color": "#2B1459",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "t-170",
+     "type": "text",
+     "bbox": [
+      692,
+      991,
+      190,
+      22
+     ],
+     "text": "(cholinergic dysfunction)",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 11,
+      "bold": false,
+      "color": "#2B1459",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "a-171",
+     "type": "line",
+     "points": [
+      150,
+      1088,
+      850,
+      1088
+     ],
+     "z": 15,
+     "style": {
+      "color": "#3A3A3A",
+      "width_pt": 1.75,
+      "start_arrow": "none",
+      "end_arrow": "none",
+      "dash": "dot"
+     }
+    },
+    {
+     "id": "a-172",
+     "type": "line",
+     "points": [
+      152,
+      1090,
+      152,
+      1117
+     ],
+     "z": 15,
+     "style": {
+      "color": "#3A3A3A",
+      "width_pt": 1.75,
+      "start_arrow": "none",
+      "end_arrow": "triangle",
+      "dash": "dot"
+     }
+    },
+    {
+     "id": "a-173",
+     "type": "line",
+     "points": [
+      512,
+      1090,
+      512,
+      1117
+     ],
+     "z": 15,
+     "style": {
+      "color": "#3A3A3A",
+      "width_pt": 1.75,
+      "start_arrow": "none",
+      "end_arrow": "triangle",
+      "dash": "dot"
+     }
+    },
+    {
+     "id": "a-174",
+     "type": "line",
+     "points": [
+      852,
+      1090,
+      852,
+      1117
+     ],
+     "z": 15,
+     "style": {
+      "color": "#3A3A3A",
+      "width_pt": 1.75,
+      "start_arrow": "none",
+      "end_arrow": "triangle",
+      "dash": "dot"
+     }
+    },
+    {
+     "id": "s-175",
+     "type": "round_rect",
+     "bbox": [
+      22,
+      1122,
+      302,
+      231
+     ],
+     "z": 10,
+     "style": {
+      "fill": "#F6F3F8",
+      "line": "#492D6B",
+      "line_width_pt": 2.0,
+      "dash": "dot"
+     }
+    },
+    {
+     "id": "s-176",
+     "type": "round_rect",
+     "bbox": [
+      360,
+      1123,
+      291,
+      232
+     ],
+     "z": 10,
+     "style": {
+      "fill": "#F6F3F8",
+      "line": "#492D6B",
+      "line_width_pt": 2.0,
+      "dash": "dot"
+     }
+    },
+    {
+     "id": "s-177",
+     "type": "round_rect",
+     "bbox": [
+      683,
+      1121,
+      298,
+      232
+     ],
+     "z": 10,
+     "style": {
+      "fill": "#F6F3F8",
+      "line": "#492D6B",
+      "line_width_pt": 2.0,
+      "dash": "dot"
+     }
+    },
+    {
+     "id": "t-178",
+     "type": "text",
+     "bbox": [
+      86,
+      1128,
+      210,
+      26
+     ],
+     "text": "Neuroinflammation",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 15.5,
+      "bold": false,
+      "color": "#381F61",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "t-179",
+     "type": "text",
+     "bbox": [
+      82,
+      1152,
+      200,
+      24
+     ],
+     "text": "(microglial activation)",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 11.5,
+      "bold": false,
+      "color": "#381F61",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "t-180",
+     "type": "text",
+     "bbox": [
+      165,
+      1178,
+      100,
+      24
+     ],
+     "text": "LPS/OMVs",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 12,
+      "bold": false,
+      "color": "#A02D14",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "a-181",
+     "type": "line",
+     "points": [
+      196,
+      1206,
+      196,
+      1234
+     ],
+     "z": 15,
+     "style": {
+      "color": "#9B3521",
+      "width_pt": 1.5,
+      "start_arrow": "none",
+      "end_arrow": "none"
+     }
+    },
+    {
+     "id": "a-182",
+     "type": "line",
+     "points": [
+      214,
+      1206,
+      214,
+      1234
+     ],
+     "z": 15,
+     "style": {
+      "color": "#9B3521",
+      "width_pt": 1.5,
+      "start_arrow": "none",
+      "end_arrow": "none"
+     }
+    },
+    {
+     "id": "a-183",
+     "type": "line",
+     "points": [
+      232,
+      1206,
+      232,
+      1234
+     ],
+     "z": 15,
+     "style": {
+      "color": "#9B3521",
+      "width_pt": 1.5,
+      "start_arrow": "none",
+      "end_arrow": "none"
+     }
+    },
+    {
+     "id": "a-184",
+     "type": "line",
+     "points": [
+      250,
+      1206,
+      250,
+      1234
+     ],
+     "z": 15,
+     "style": {
+      "color": "#9B3521",
+      "width_pt": 1.5,
+      "start_arrow": "none",
+      "end_arrow": "none"
+     }
+    },
+    {
+     "id": "s-185",
+     "type": "ellipse",
+     "bbox": [
+      62,
+      1212,
+      56,
+      66
+     ],
+     "z": 10,
+     "style": {
+      "fill": "#B398C4",
+      "line": "#8A6F9E",
+      "line_width_pt": 2.0,
+      "fill_transparency": 42
+     }
+    },
+    {
+     "id": "s-186",
+     "type": "ellipse",
+     "bbox": [
+      50,
+      1240,
+      24,
+      18
+     ],
+     "z": 10,
+     "style": {
+      "fill": "#B398C4",
+      "line": "#8A6F9E",
+      "line_width_pt": 1.5,
+      "fill_transparency": 30
+     }
+    },
+    {
+     "id": "t-187",
+     "type": "text",
+     "bbox": [
+      128,
+      1253,
+      60,
+      24
+     ],
+     "text": "TLR4",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 12.5,
+      "bold": false,
+      "color": "#0C646D",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "t-188",
+     "type": "text",
+     "bbox": [
+      258,
+      1251,
+      70,
+      24
+     ],
+     "text": "IL-1β ↑",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 11.5,
+      "bold": false,
+      "color": "#1C1C1C",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "t-189",
+     "type": "text",
+     "bbox": [
+      166,
+      1283,
+      70,
+      24
+     ],
+     "text": "NLRP3",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 12.5,
+      "bold": false,
+      "color": "#0C646D",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "t-190",
+     "type": "text",
+     "bbox": [
+      256,
+      1273,
+      70,
+      24
+     ],
+     "text": "IL-18 ↑",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 11.5,
+      "bold": false,
+      "color": "#1C1C1C",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "t-191",
+     "type": "text",
+     "bbox": [
+      162,
+      1299,
+      105,
+      24
+     ],
+     "text": "inflammasome",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 12.5,
+      "bold": false,
+      "color": "#0C646D",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "t-192",
+     "type": "text",
+     "bbox": [
+      256,
+      1295,
+      75,
+      24
+     ],
+     "text": "TNF-α ↑",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 11.5,
+      "bold": false,
+      "color": "#1C1C1C",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "t-193",
+     "type": "text",
+     "bbox": [
+      165,
+      1320,
+      95,
+      24
+     ],
+     "text": "activation",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 12.5,
+      "bold": false,
+      "color": "#0C646D",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "t-194",
+     "type": "text",
+     "bbox": [
+      259,
+      1316,
+      65,
+      24
+     ],
+     "text": "ROS ↑",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 11.5,
+      "bold": false,
+      "color": "#1C1C1C",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "s-195",
+     "type": "chevron",
+     "bbox": [
+      390,
+      1150,
+      92,
+      98
+     ],
+     "z": 10,
+     "style": {
+      "fill": "#95BEC2",
+      "line": null,
+      "line_width_pt": 1.5
+     }
+    },
+    {
+     "id": "s-196",
+     "type": "chevron",
+     "bbox": [
+      378,
+      1288,
+      108,
+      42
+     ],
+     "z": 10,
+     "style": {
+      "fill": "#A5C9CB",
+      "line": null,
+      "line_width_pt": 1.5,
+      "fill_transparency": 28
+     }
+    },
+    {
+     "id": "t-197",
+     "type": "text",
+     "bbox": [
+      410,
+      1130,
+      198,
+      26
+     ],
+     "text": "Cholinergic deficit",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 15.5,
+      "bold": false,
+      "color": "#381F61",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "t-198",
+     "type": "text",
+     "bbox": [
+      522,
+      1185,
+      120,
+      24
+     ],
+     "text": "↓ACh synthesis",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 11.5,
+      "bold": false,
+      "color": "#1C1C1C",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "t-199",
+     "type": "text",
+     "bbox": [
+      522,
+      1209,
+      115,
+      24
+     ],
+     "text": "↓ACh release",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 11.5,
+      "bold": false,
+      "color": "#1C1C1C",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "t-200",
+     "type": "text",
+     "bbox": [
+      470,
+      1231,
+      50,
+      24
+     ],
+     "text": "ACh",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 11.5,
+      "bold": false,
+      "color": "#1C1C1C",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "t-201",
+     "type": "text",
+     "bbox": [
+      520,
+      1233,
+      130,
+      24
+     ],
+     "text": "↑ AChE activity",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 11.5,
+      "bold": false,
+      "color": "#1C1C1C",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "t-202",
+     "type": "text",
+     "bbox": [
+      522,
+      1259,
+      115,
+      24
+     ],
+     "text": "↓Cholinergic",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 11.5,
+      "bold": false,
+      "color": "#1C1C1C",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "t-203",
+     "type": "text",
+     "bbox": [
+      522,
+      1283,
+      135,
+      24
+     ],
+     "text": "receptor signaling",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 11.5,
+      "bold": false,
+      "color": "#1C1C1C",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "s-204",
+     "type": "chevron",
+     "bbox": [
+      698,
+      1195,
+      128,
+      95
+     ],
+     "z": 10,
+     "style": {
+      "fill": "#C2A8D1",
+      "line": null,
+      "line_width_pt": 1.5,
+      "fill_transparency": 20
+     }
+    },
+    {
+     "id": "s-205",
+     "type": "ellipse",
+     "bbox": [
+      731,
+      1164,
+      96,
+      54
+     ],
+     "z": 10,
+     "style": {
+      "fill": "#C9B2D6",
+      "line": "#8A6F9E",
+      "line_width_pt": 2.0,
+      "fill_transparency": 15
+     }
+    },
+    {
+     "id": "s-206",
+     "type": "ellipse",
+     "bbox": [
+      800,
+      1178,
+      34,
+      30
+     ],
+     "z": 10,
+     "style": {
+      "fill": "#C9B2D6",
+      "line": "#8A6F9E",
+      "line_width_pt": 1.75,
+      "fill_transparency": 15
+     }
+    },
+    {
+     "id": "t-207",
+     "type": "text",
+     "bbox": [
+      750,
+      1132,
+      186,
+      26
+     ],
+     "text": "Cognitive decline",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 15.5,
+      "bold": false,
+      "color": "#381F61",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "t-208",
+     "type": "text",
+     "bbox": [
+      826,
+      1191,
+      150,
+      24
+     ],
+     "text": "• Memory impairment",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 11.5,
+      "bold": false,
+      "color": "#1C1C1C",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "t-209",
+     "type": "text",
+     "bbox": [
+      826,
+      1215,
+      145,
+      24
+     ],
+     "text": "• Learning deficits",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 11.5,
+      "bold": false,
+      "color": "#1C1C1C",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "t-210",
+     "type": "text",
+     "bbox": [
+      824,
+      1242,
+      175,
+      24
+     ],
+     "text": "• Executive dysfunction",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 11.5,
+      "bold": false,
+      "color": "#1C1C1C",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "t-211",
+     "type": "text",
+     "bbox": [
+      822,
+      1264,
+      160,
+      24
+     ],
+     "text": "• Behavioral changes",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 11.5,
+      "bold": false,
+      "color": "#1C1C1C",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "a-212",
+     "type": "line",
+     "points": [
+      150,
+      1355,
+      150,
+      1369
+     ],
+     "z": 15,
+     "style": {
+      "color": "#3A3A3A",
+      "width_pt": 1.75,
+      "start_arrow": "none",
+      "end_arrow": "none",
+      "dash": "dot"
+     }
+    },
+    {
+     "id": "a-213",
+     "type": "line",
+     "points": [
+      515,
+      1355,
+      515,
+      1369
+     ],
+     "z": 15,
+     "style": {
+      "color": "#3A3A3A",
+      "width_pt": 1.75,
+      "start_arrow": "none",
+      "end_arrow": "none",
+      "dash": "dot"
+     }
+    },
+    {
+     "id": "a-214",
+     "type": "line",
+     "points": [
+      836,
+      1355,
+      836,
+      1369
+     ],
+     "z": 15,
+     "style": {
+      "color": "#3A3A3A",
+      "width_pt": 1.75,
+      "start_arrow": "none",
+      "end_arrow": "none",
+      "dash": "dot"
+     }
+    },
+    {
+     "id": "a-215",
+     "type": "line",
+     "points": [
+      150,
+      1370,
+      840,
+      1370
+     ],
+     "z": 15,
+     "style": {
+      "color": "#3A3A3A",
+      "width_pt": 1.75,
+      "start_arrow": "none",
+      "end_arrow": "none",
+      "dash": "dot"
+     }
+    },
+    {
+     "id": "a-216",
+     "type": "line",
+     "points": [
+      515,
+      1372,
+      515,
+      1384
+     ],
+     "z": 15,
+     "style": {
+      "color": "#3A3A3A",
+      "width_pt": 1.75,
+      "start_arrow": "none",
+      "end_arrow": "triangle",
+      "dash": "dot"
+     }
+    },
+    {
+     "id": "s-217",
+     "type": "round_rect",
+     "bbox": [
+      277,
+      1385,
+      432,
+      74
+     ],
+     "z": 10,
+     "style": {
+      "fill": "#F3F1F6",
+      "line": "#5F497E",
+      "line_width_pt": 2.0,
+      "dash": "dot"
+     }
+    },
+    {
+     "id": "t-218",
+     "type": "text",
+     "bbox": [
+      322,
+      1408,
+      342,
+      30
+     ],
+     "text": "Alzheimer disease progression",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 15.5,
+      "bold": false,
+      "color": "#3B1E62",
+      "align": "center",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "s-219",
+     "type": "rect",
+     "bbox": [
+      37,
+      1474,
+      678,
+      52
+     ],
+     "z": 10,
+     "style": {
+      "fill": null,
+      "line": "#79617F",
+      "line_width_pt": 1.5,
+      "dash": "dot"
+     }
+    },
+    {
+     "id": "s-220",
+     "type": "rect",
+     "bbox": [
+      47,
+      1487,
+      24,
+      24
+     ],
+     "z": 10,
+     "style": {
+      "fill": "#94210B",
+      "line": null,
+      "line_width_pt": 1.5
+     }
+    },
+    {
+     "id": "t-221",
+     "type": "text",
+     "bbox": [
+      77,
+      1487,
+      245,
+      26
+     ],
+     "text": "Pathogen factors (P. gingivalis)",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 11.5,
+      "bold": false,
+      "color": "#3E4A4A",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "s-222",
+     "type": "rect",
+     "bbox": [
+      323,
+      1488,
+      23,
+      23
+     ],
+     "z": 10,
+     "style": {
+      "fill": "#106670",
+      "line": null,
+      "line_width_pt": 1.5
+     }
+    },
+    {
+     "id": "t-223",
+     "type": "text",
+     "bbox": [
+      352,
+      1487,
+      155,
+      26
+     ],
+     "text": "Host proteins/genes",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 11.5,
+      "bold": false,
+      "color": "#3E4A4A",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "s-224",
+     "type": "rect",
+     "bbox": [
+      538,
+      1488,
+      23,
+      23
+     ],
+     "z": 10,
+     "style": {
+      "fill": "#503074",
+      "line": null,
+      "line_width_pt": 1.5
+     }
+    },
+    {
+     "id": "t-225",
+     "type": "text",
+     "bbox": [
+      567,
+      1487,
+      145,
+      26
+     ],
+     "text": "Pathology/outcomes",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 11.5,
+      "bold": false,
+      "color": "#3E4A4A",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "t-226",
+     "type": "text",
+     "bbox": [
+      788,
+      1474,
+      190,
+      24
+     ],
+     "text": "→ Activation/promotion",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 11.5,
+      "bold": false,
+      "color": "#4A4A4A",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    },
+    {
+     "id": "t-227",
+     "type": "text",
+     "bbox": [
+      778,
+      1502,
+      195,
+      24
+     ],
+     "text": "-- Inhibition/reduction",
+     "z": 30,
+     "style": {
+      "font_face": "Comic Sans MS",
+      "font_size_pt": 11.5,
+      "bold": false,
+      "color": "#4A4A4A",
+      "align": "left",
+      "valign": "top",
+      "margin_pt": 0
+     }
+    }
+   ]
+  }
+ ]
+}

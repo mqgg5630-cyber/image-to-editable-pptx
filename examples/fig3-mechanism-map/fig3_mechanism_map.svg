@@ -1,0 +1,236 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1536" viewBox="0 0 1024 1536" font-family="Comic Sans MS, Segoe Print, Bradley Hand, cursive">
+<rect x="0" y="0" width="1024" height="1536" fill="#FEFEFE"/>
+<defs>
+<marker id="ad" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3A3A3A"/></marker>
+<marker id="ar" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#9B3521"/></marker>
+<marker id="at" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#0D5961"/></marker>
+<marker id="ap" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#58387A"/></marker>
+</defs>
+<text x="533" y="36" font-size="24.5" font-weight="400" fill="#A02D14" text-anchor="middle">Porphyromonas gingivalis</text>
+<ellipse cx="533" cy="116" rx="231" ry="60" fill="none" stroke="#A02D14" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round" />
+<ellipse cx="496" cy="117" rx="174" ry="43" fill="#BF5D4A" stroke="#A02D14" stroke-width="2.7" stroke-linejoin="round" stroke-linecap="round" />
+<ellipse cx="406" cy="134" rx="6" ry="4" fill="#A02D14" stroke="none" stroke-width="0.0" stroke-linejoin="round" stroke-linecap="round" />
+<ellipse cx="466" cy="154" rx="6" ry="4" fill="#A02D14" stroke="none" stroke-width="0.0" stroke-linejoin="round" stroke-linecap="round" />
+<ellipse cx="526" cy="146" rx="6" ry="4" fill="#A02D14" stroke="none" stroke-width="0.0" stroke-linejoin="round" stroke-linecap="round" />
+<ellipse cx="586" cy="160" rx="6" ry="4" fill="#A02D14" stroke="none" stroke-width="0.0" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="247" y1="180" x2="247" y2="212" stroke="#3A3A3A" stroke-width="2.1" stroke-linecap="round" stroke-dasharray="10 6" marker-end="url(#ad)"/>
+<line x1="494" y1="178" x2="494" y2="218" stroke="#3A3A3A" stroke-width="2.1" stroke-linecap="round" stroke-dasharray="10 6" marker-end="url(#ad)"/>
+<line x1="769" y1="180" x2="769" y2="212" stroke="#3A3A3A" stroke-width="2.1" stroke-linecap="round" stroke-dasharray="10 6" marker-end="url(#ad)"/>
+<rect x="198" y="206" width="15" height="92" rx="4" fill="#9B3521" stroke="none" stroke-width="0.0" stroke-linejoin="round" stroke-linecap="round" />
+<rect x="221" y="231" width="82" height="9" fill="#9B3521" stroke="none" stroke-width="0.0" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="222" y1="240" x2="222" y2="296" stroke="#9B3521" stroke-width="1.9" stroke-linecap="round" />
+<line x1="240" y1="240" x2="240" y2="296" stroke="#9B3521" stroke-width="1.9" stroke-linecap="round" />
+<line x1="258" y1="240" x2="258" y2="296" stroke="#9B3521" stroke-width="1.9" stroke-linecap="round" />
+<line x1="273" y1="240" x2="273" y2="296" stroke="#9B3521" stroke-width="1.9" stroke-linecap="round" />
+<line x1="288" y1="240" x2="288" y2="296" stroke="#9B3521" stroke-width="1.9" stroke-linecap="round" />
+<line x1="300" y1="240" x2="300" y2="296" stroke="#9B3521" stroke-width="1.9" stroke-linecap="round" />
+<text x="227" y="323" font-size="16.0" font-weight="400" fill="#A02D14" text-anchor="middle">LPS</text>
+<text x="234" y="348" font-size="12.3" font-weight="400" fill="#1C1C1C" text-anchor="middle">(lipopolysaccharide)</text>
+<text x="488" y="238" font-size="16.0" font-weight="400" fill="#A02D14" text-anchor="middle">Gingipains</text>
+<rect x="418" y="266" width="46" height="47" rx="13" fill="#9B3521" stroke="none" stroke-width="0.0" stroke-linejoin="round" stroke-linecap="round" />
+<rect x="482" y="266" width="48" height="47" rx="13" fill="#9B3521" stroke="none" stroke-width="0.0" stroke-linejoin="round" stroke-linecap="round" />
+<rect x="546" y="266" width="42" height="47" rx="12" fill="#9B3521" stroke="none" stroke-width="0.0" stroke-linejoin="round" stroke-linecap="round" />
+<text x="433" y="336" font-size="12.3" font-weight="400" fill="#1C1C1C" text-anchor="middle">Kgp</text>
+<text x="496" y="336" font-size="12.3" font-weight="400" fill="#1C1C1C" text-anchor="middle">RgpA</text>
+<text x="550" y="336" font-size="12.3" font-weight="400" fill="#1C1C1C" text-anchor="middle">RgpB</text>
+<ellipse cx="715" cy="264" rx="30" ry="30" fill="none" stroke="#9B3521" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round" />
+<ellipse cx="773" cy="232" rx="25" ry="25" fill="none" stroke="#9B3521" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round" />
+<ellipse cx="804" cy="282" rx="24" ry="24" fill="none" stroke="#9B3521" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round" />
+<ellipse cx="703" cy="253" rx="3" ry="3" fill="#9B3521" stroke="none" stroke-width="0.0" stroke-linejoin="round" stroke-linecap="round" />
+<ellipse cx="719" cy="267" rx="3" ry="3" fill="#9B3521" stroke="none" stroke-width="0.0" stroke-linejoin="round" stroke-linecap="round" />
+<ellipse cx="707" cy="279" rx="3" ry="3" fill="#9B3521" stroke="none" stroke-width="0.0" stroke-linejoin="round" stroke-linecap="round" />
+<ellipse cx="723" cy="247" rx="3" ry="3" fill="#9B3521" stroke="none" stroke-width="0.0" stroke-linejoin="round" stroke-linecap="round" />
+<ellipse cx="713" cy="261" rx="3" ry="3" fill="#9B3521" stroke="none" stroke-width="0.0" stroke-linejoin="round" stroke-linecap="round" />
+<text x="752" y="325" font-size="16.0" font-weight="400" fill="#A02D14" text-anchor="middle">OMVs</text>
+<text x="747" y="349" font-size="12.3" font-weight="400" fill="#1C1C1C" text-anchor="middle">(outer membrane vesicles)</text>
+<line x1="245" y1="352" x2="245" y2="376" stroke="#3A3A3A" stroke-width="1.9" stroke-linecap="round" stroke-dasharray="1.5 5" />
+<line x1="500" y1="352" x2="500" y2="376" stroke="#3A3A3A" stroke-width="1.9" stroke-linecap="round" stroke-dasharray="1.5 5" />
+<line x1="793" y1="352" x2="793" y2="376" stroke="#3A3A3A" stroke-width="1.9" stroke-linecap="round" stroke-dasharray="1.5 5" />
+<line x1="165" y1="378" x2="840" y2="378" stroke="#3A3A3A" stroke-width="1.9" stroke-linecap="round" stroke-dasharray="1.5 5" />
+<line x1="165" y1="380" x2="165" y2="408" stroke="#3A3A3A" stroke-width="1.9" stroke-linecap="round" stroke-dasharray="1.5 5" marker-end="url(#ad)"/>
+<line x1="512" y1="380" x2="512" y2="408" stroke="#3A3A3A" stroke-width="1.9" stroke-linecap="round" stroke-dasharray="1.5 5" marker-end="url(#ad)"/>
+<line x1="795" y1="380" x2="795" y2="408" stroke="#3A3A3A" stroke-width="1.9" stroke-linecap="round" stroke-dasharray="1.5 5" marker-end="url(#ad)"/>
+<rect x="48" y="412" width="243" height="82" rx="23" fill="#F6F3F8" stroke="#492D6B" stroke-width="2.1" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="1.7 5" />
+<rect x="372" y="412" width="259" height="82" rx="23" fill="#F6F3F8" stroke="#492D6B" stroke-width="2.1" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="1.7 5" />
+<rect x="680" y="412" width="311" height="81" rx="23" fill="#F6F3F8" stroke="#492D6B" stroke-width="2.1" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="1.7 5" />
+<ellipse cx="70" cy="438" rx="14" ry="14" fill="none" stroke="#4A2F6F" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" />
+<ellipse cx="396" cy="438" rx="14" ry="14" fill="none" stroke="#4A2F6F" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" />
+<ellipse cx="700" cy="438" rx="14" ry="14" fill="none" stroke="#4A2F6F" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" />
+<text x="96" y="440" font-size="16.0" font-weight="400" fill="#381F61" text-anchor="start">Tau proteolysis</text>
+<text x="92" y="466" font-size="16.0" font-weight="400" fill="#381F61" text-anchor="start">and NFT formation</text>
+<text x="420" y="440" font-size="16.0" font-weight="400" fill="#381F61" text-anchor="start">APP processing</text>
+<text x="416" y="466" font-size="16.0" font-weight="400" fill="#381F61" text-anchor="start">and Aβ deposition</text>
+<text x="716" y="438" font-size="16.0" font-weight="400" fill="#381F61" text-anchor="start">AChE-PAS nucleation of Aβ</text>
+<text x="712" y="464" font-size="16.0" font-weight="400" fill="#381F61" text-anchor="start">and increased AChE activity</text>
+<text x="60" y="506" font-size="13.9" font-weight="400" fill="#A02D14" text-anchor="start">Gingipains (Kgp, RgpA, RgpB)</text>
+<text x="378" y="506" font-size="13.9" font-weight="400" fill="#A02D14" text-anchor="start">Gingipains (Kgp, RgpA, RgpB)</text>
+<text x="700" y="506" font-size="13.9" font-weight="400" fill="#A02D14" text-anchor="start">LPS/OMVs</text>
+<line x1="124" y1="519" x2="124" y2="548" stroke="#9B3521" stroke-width="6.4" stroke-linecap="round" marker-end="url(#ar)"/>
+<line x1="166" y1="519" x2="166" y2="548" stroke="#9B3521" stroke-width="6.4" stroke-linecap="round" marker-end="url(#ar)"/>
+<line x1="208" y1="519" x2="208" y2="548" stroke="#9B3521" stroke-width="6.4" stroke-linecap="round" marker-end="url(#ar)"/>
+<line x1="462" y1="519" x2="462" y2="548" stroke="#9B3521" stroke-width="6.4" stroke-linecap="round" marker-end="url(#ar)"/>
+<line x1="494" y1="519" x2="494" y2="548" stroke="#9B3521" stroke-width="6.4" stroke-linecap="round" marker-end="url(#ar)"/>
+<line x1="526" y1="519" x2="526" y2="548" stroke="#9B3521" stroke-width="6.4" stroke-linecap="round" marker-end="url(#ar)"/>
+<line x1="140" y1="551" x2="140" y2="582" stroke="#3A3A3A" stroke-width="2.1" stroke-linecap="round" stroke-dasharray="10 6" marker-end="url(#ad)"/>
+<line x1="183" y1="551" x2="183" y2="582" stroke="#3A3A3A" stroke-width="2.1" stroke-linecap="round" stroke-dasharray="10 6" marker-end="url(#ad)"/>
+<line x1="463" y1="551" x2="463" y2="574" stroke="#3A3A3A" stroke-width="2.1" stroke-linecap="round" stroke-dasharray="10 6" marker-end="url(#ad)"/>
+<line x1="505" y1="551" x2="505" y2="574" stroke="#3A3A3A" stroke-width="2.1" stroke-linecap="round" stroke-dasharray="10 6" marker-end="url(#ad)"/>
+<text x="22" y="601" font-size="14.9" font-weight="400" fill="#0C646D" text-anchor="start">Tau</text>
+<text x="356" y="599" font-size="14.9" font-weight="400" fill="#0C646D" text-anchor="start">APP</text>
+<line x1="78" y1="594" x2="300" y2="594" stroke="#0D5961" stroke-width="3.7" stroke-linecap="round" marker-end="url(#at)"/>
+<line x1="163" y1="608" x2="163" y2="646" stroke="#3A3A3A" stroke-width="2.1" stroke-linecap="round" stroke-dasharray="10 6" marker-end="url(#ad)"/>
+<line x1="62" y1="658" x2="116" y2="670" stroke="#0D5961" stroke-width="3.2" stroke-linecap="round" marker-end="url(#at)"/>
+<line x1="186" y1="658" x2="240" y2="670" stroke="#0D5961" stroke-width="3.2" stroke-linecap="round" marker-end="url(#at)"/>
+<text x="18" y="681" font-size="14.9" font-weight="400" fill="#0C646D" text-anchor="start">Tau</text>
+<text x="16" y="702" font-size="14.9" font-weight="400" fill="#0C646D" text-anchor="start">fragments</text>
+<line x1="155" y1="700" x2="155" y2="720" stroke="#3A3A3A" stroke-width="2.1" stroke-linecap="round" stroke-dasharray="10 6" marker-end="url(#ad)"/>
+<rect x="78" y="718" width="208" height="44" fill="none" stroke="#1C1C1C" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="1.5 5" />
+<text x="84" y="735" font-size="13.3" font-weight="400" fill="#1C1C1C" text-anchor="start">Hyperphosphorylation</text>
+<text x="82" y="755" font-size="12.3" font-weight="400" fill="#1C1C1C" text-anchor="start">(dysregulated kinases)</text>
+<line x1="155" y1="762" x2="155" y2="784" stroke="#3A3A3A" stroke-width="2.1" stroke-linecap="round" stroke-dasharray="10 6" marker-end="url(#ad)"/>
+<text x="132" y="802" font-size="13.9" font-weight="400" fill="#0C646D" text-anchor="start">PLK2</text>
+<line x1="155" y1="818" x2="155" y2="856" stroke="#3A3A3A" stroke-width="2.1" stroke-linecap="round" stroke-dasharray="10 6" marker-end="url(#ad)"/>
+<text x="34" y="875" font-size="13.3" font-weight="400" fill="#2B1459" text-anchor="start">Paired helical filaments</text>
+<text x="84" y="897" font-size="13.3" font-weight="400" fill="#2B1459" text-anchor="start">(PHF)</text>
+<text x="248" y="856" font-size="13.9" font-weight="400" fill="#0C646D" text-anchor="start">CALD1</text>
+<text x="353" y="856" font-size="13.9" font-weight="400" fill="#0C646D" text-anchor="start">HES1</text>
+<line x1="155" y1="906" x2="155" y2="952" stroke="#3A3A3A" stroke-width="2.1" stroke-linecap="round" stroke-dasharray="10 6" marker-end="url(#ad)"/>
+<ellipse cx="126" cy="998" rx="48" ry="38" fill="#8B6FAD" fill-opacity="0.44999999999999996" stroke="#684988" stroke-width="3.7" stroke-linejoin="round" stroke-linecap="round" />
+<ellipse cx="126" cy="998" rx="30" ry="22" fill="none" stroke="#684988" stroke-width="2.7" stroke-linejoin="round" stroke-linecap="round" />
+<rect x="166" y="1000" width="132" height="48" fill="none" stroke="#492D6B" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="1.5 5" />
+<text x="170" y="1016" font-size="13.3" font-weight="400" fill="#2B1459" text-anchor="start">Neurofibrillary</text>
+<text x="170" y="1039" font-size="13.3" font-weight="400" fill="#2B1459" text-anchor="start">tangles (NFTs)</text>
+<line x1="215" y1="1052" x2="215" y2="1084" stroke="#3A3A3A" stroke-width="1.9" stroke-linecap="round" stroke-dasharray="1.5 5" marker-end="url(#ad)"/>
+<line x1="410" y1="624" x2="560" y2="624" stroke="#6E9BA6" stroke-width="2.7" stroke-linecap="round" />
+<line x1="410" y1="658" x2="560" y2="658" stroke="#6E9BA6" stroke-width="2.7" stroke-linecap="round" />
+<line x1="420" y1="627" x2="420" y2="655" stroke="#6E9BA6" stroke-width="1.6" stroke-linecap="round" />
+<line x1="434" y1="627" x2="434" y2="655" stroke="#6E9BA6" stroke-width="1.6" stroke-linecap="round" />
+<line x1="448" y1="627" x2="448" y2="655" stroke="#6E9BA6" stroke-width="1.6" stroke-linecap="round" />
+<line x1="462" y1="627" x2="462" y2="655" stroke="#6E9BA6" stroke-width="1.6" stroke-linecap="round" />
+<line x1="492" y1="627" x2="492" y2="655" stroke="#6E9BA6" stroke-width="1.6" stroke-linecap="round" />
+<line x1="506" y1="627" x2="506" y2="655" stroke="#6E9BA6" stroke-width="1.6" stroke-linecap="round" />
+<line x1="520" y1="627" x2="520" y2="655" stroke="#6E9BA6" stroke-width="1.6" stroke-linecap="round" />
+<line x1="534" y1="627" x2="534" y2="655" stroke="#6E9BA6" stroke-width="1.6" stroke-linecap="round" />
+<line x1="548" y1="627" x2="548" y2="655" stroke="#6E9BA6" stroke-width="1.6" stroke-linecap="round" />
+<rect x="468" y="576" width="22" height="112" rx="6" fill="#1B6A72" stroke="none" stroke-width="0.0" stroke-linejoin="round" stroke-linecap="round" />
+<text x="536" y="587" font-size="13.3" font-weight="400" fill="#0C646D" text-anchor="start">β-secretase</text>
+<text x="538" y="607" font-size="12.3" font-weight="400" fill="#0C646D" text-anchor="start">(BACE1)</text>
+<text x="540" y="675" font-size="13.3" font-weight="400" fill="#0C646D" text-anchor="start">γ-secretase</text>
+<text x="536" y="695" font-size="12.3" font-weight="400" fill="#0C646D" text-anchor="start">(presenilin 1)</text>
+<line x1="470" y1="696" x2="470" y2="716" stroke="#3A3A3A" stroke-width="2.7" stroke-linecap="round" marker-end="url(#ad)"/>
+<rect x="408" y="717" width="164" height="36" fill="none" stroke="#1C1C1C" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="1.5 5" />
+<text x="402" y="737" font-size="13.3" font-weight="400" fill="#1C1C1C" text-anchor="start">Aβ peptides (Aβ40/42)</text>
+<line x1="470" y1="762" x2="492" y2="800" stroke="#0D5961" stroke-width="2.7" stroke-linecap="round" stroke-dasharray="11 7" marker-end="url(#at)"/>
+<text x="450" y="819" font-size="13.3" font-weight="400" fill="#1C1C1C" text-anchor="start">Oligomers</text>
+<line x1="492" y1="830" x2="492" y2="876" stroke="#0D5961" stroke-width="2.7" stroke-linecap="round" marker-end="url(#at)"/>
+<text x="466" y="896" font-size="13.3" font-weight="400" fill="#1C1C1C" text-anchor="start">Fibrils</text>
+<ellipse cx="381" cy="848" rx="27" ry="18" fill="none" stroke="#0D5961" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="448" y1="918" x2="528" y2="918" stroke="#0D5961" stroke-width="8.5" stroke-linecap="round" />
+<line x1="528" y1="916" x2="528" y2="950" stroke="#0D5961" stroke-width="4.3" stroke-linecap="round" marker-end="url(#at)"/>
+<ellipse cx="488" cy="987" rx="39" ry="26" fill="#684988" fill-opacity="0.85" stroke="none" stroke-width="0.0" stroke-linejoin="round" stroke-linecap="round" />
+<ellipse cx="485" cy="987" rx="23" ry="15" fill="#8B6FAD" fill-opacity="0.95" stroke="none" stroke-width="0.0" stroke-linejoin="round" stroke-linecap="round" />
+<rect x="431" y="958" width="124" height="113" rx="32" fill="#F6F3F8" stroke="#492D6B" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="1.5 5" />
+<text x="426" y="1039" font-size="13.3" font-weight="400" fill="#2B1459" text-anchor="start">Aβ deposition</text>
+<text x="422" y="1059" font-size="12.3" font-weight="400" fill="#2B1459" text-anchor="start">(amyloid plaques)</text>
+<line x1="505" y1="1073" x2="505" y2="1084" stroke="#3A3A3A" stroke-width="1.9" stroke-linecap="round" stroke-dasharray="1.5 5" marker-end="url(#ad)"/>
+<line x1="338" y1="575" x2="338" y2="730" stroke="#3A3A3A" stroke-width="1.3" stroke-linecap="round" stroke-dasharray="1.5 4" />
+<rect x="691" y="519" width="14" height="55" rx="4" fill="#9B3521" stroke="none" stroke-width="0.0" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="716" y1="524" x2="716" y2="556" stroke="#9B3521" stroke-width="1.6" stroke-linecap="round" />
+<line x1="731" y1="524" x2="731" y2="556" stroke="#9B3521" stroke-width="1.6" stroke-linecap="round" />
+<line x1="746" y1="524" x2="746" y2="556" stroke="#9B3521" stroke-width="1.6" stroke-linecap="round" />
+<ellipse cx="768" cy="554" rx="16" ry="16" fill="none" stroke="#9B3521" stroke-width="2.7" stroke-linejoin="round" stroke-linecap="round" />
+<ellipse cx="799" cy="536" rx="15" ry="15" fill="none" stroke="#9B3521" stroke-width="2.7" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="748" y1="560" x2="748" y2="606" stroke="#3A3A3A" stroke-width="2.7" stroke-linecap="round" stroke-dasharray="11 7" marker-end="url(#ad)"/>
+<ellipse cx="748" cy="659" rx="34" ry="42" fill="#B9D6D8" stroke="#58387A" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" />
+<text x="757" y="660" font-size="13.9" font-weight="400" fill="#0A525E" text-anchor="middle">AChE</text>
+<line x1="660" y1="671" x2="795" y2="671" stroke="#58387A" stroke-width="2.4" stroke-linecap="round" />
+<line x1="660" y1="685" x2="795" y2="685" stroke="#58387A" stroke-width="2.4" stroke-linecap="round" />
+<text x="818" y="677" font-size="13.3" font-weight="400" fill="#381F61" text-anchor="start">PAS</text>
+<rect x="672" y="704" width="150" height="28" fill="none" stroke="#1C1C1C" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="1.5 5" />
+<text x="676" y="721" font-size="12.8" font-weight="400" fill="#1C1C1C" text-anchor="start">AChE-PAS complex</text>
+<rect x="656" y="728" width="200" height="28" fill="none" stroke="#1C1C1C" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="1.5 5" />
+<text x="660" y="745" font-size="12.8" font-weight="400" fill="#1C1C1C" text-anchor="start">nucleates Aβ aggregation</text>
+<line x1="757" y1="755" x2="757" y2="784" stroke="#3A3A3A" stroke-width="2.1" stroke-linecap="round" stroke-dasharray="10 6" marker-end="url(#ad)"/>
+<rect x="648" y="786" width="212" height="50" fill="none" stroke="#1C1C1C" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="1.5 5" />
+<text x="649" y="804" font-size="12.8" font-weight="400" fill="#1C1C1C" text-anchor="start">Enhanced Aβ aggregation</text>
+<text x="678" y="825" font-size="11.7" font-weight="400" fill="#1C1C1C" text-anchor="start">(oligomers/fibrils)</text>
+<line x1="648" y1="500" x2="648" y2="784" stroke="#3A3A3A" stroke-width="1.9" stroke-linecap="round" stroke-dasharray="1.5 5" marker-end="url(#ad)"/>
+<rect x="866" y="770" width="146" height="52" fill="none" stroke="#1C1C1C" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="1.5 5" />
+<text x="888" y="788" font-size="13.3" font-weight="400" fill="#0C646D" text-anchor="start">Increased</text>
+<text x="872" y="810" font-size="13.3" font-weight="400" fill="#0C646D" text-anchor="start">AChE activity</text>
+<line x1="860" y1="563" x2="930" y2="563" stroke="#3A3A3A" stroke-width="1.9" stroke-linecap="round" stroke-dasharray="1.5 5" />
+<line x1="930" y1="563" x2="930" y2="766" stroke="#3A3A3A" stroke-width="1.9" stroke-linecap="round" stroke-dasharray="1.5 5" marker-end="url(#ad)"/>
+<line x1="930" y1="833" x2="930" y2="874" stroke="#3A3A3A" stroke-width="1.9" stroke-linecap="round" stroke-dasharray="1.5 5" marker-end="url(#ad)"/>
+<text x="894" y="893" font-size="13.9" font-weight="400" fill="#0C646D" text-anchor="start">AChE</text>
+<text x="838" y="911" font-size="13.3" font-weight="400" fill="#1C1C1C" text-anchor="start">ACh</text>
+<line x1="882" y1="906" x2="948" y2="906" stroke="#3A3A3A" stroke-width="1.9" stroke-linecap="round" stroke-dasharray="1.5 5" marker-end="url(#ad)"/>
+<text x="950" y="910" font-size="13.3" font-weight="400" fill="#1C1C1C" text-anchor="start">Choline</text>
+<text x="980" y="931" font-size="13.3" font-weight="400" fill="#1C1C1C" text-anchor="middle">+</text>
+<text x="952" y="946" font-size="13.3" font-weight="400" fill="#1C1C1C" text-anchor="start">Acetate</text>
+<line x1="940" y1="926" x2="940" y2="998" stroke="#0D5961" stroke-width="2.1" stroke-linecap="round" stroke-dasharray="10 6" marker-end="url(#at)"/>
+<text x="910" y="1016" font-size="13.3" font-weight="400" fill="#0C646D" text-anchor="start">UCHL1</text>
+<line x1="753" y1="846" x2="753" y2="884" stroke="#0D5961" stroke-width="10.7" stroke-linecap="round" marker-end="url(#at)"/>
+<line x1="690" y1="856" x2="746" y2="882" stroke="#0D5961" stroke-width="6.9" stroke-linecap="round" />
+<line x1="812" y1="858" x2="762" y2="882" stroke="#0D5961" stroke-width="6.9" stroke-linecap="round" />
+<line x1="770" y1="894" x2="770" y2="958" stroke="#3A3A3A" stroke-width="2.1" stroke-linecap="round" stroke-dasharray="10 6" marker-end="url(#ad)"/>
+<rect x="674" y="962" width="218" height="62" rx="17" fill="#F6F3F8" stroke="#492D6B" stroke-width="2.1" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="1.7 5" />
+<text x="698" y="985" font-size="13.3" font-weight="400" fill="#2B1459" text-anchor="start">Reduced synaptic ACh</text>
+<text x="692" y="1006" font-size="11.7" font-weight="400" fill="#2B1459" text-anchor="start">(cholinergic dysfunction)</text>
+<line x1="150" y1="1088" x2="850" y2="1088" stroke="#3A3A3A" stroke-width="1.9" stroke-linecap="round" stroke-dasharray="1.5 5" />
+<line x1="152" y1="1090" x2="152" y2="1117" stroke="#3A3A3A" stroke-width="1.9" stroke-linecap="round" stroke-dasharray="1.5 5" marker-end="url(#ad)"/>
+<line x1="512" y1="1090" x2="512" y2="1117" stroke="#3A3A3A" stroke-width="1.9" stroke-linecap="round" stroke-dasharray="1.5 5" marker-end="url(#ad)"/>
+<line x1="852" y1="1090" x2="852" y2="1117" stroke="#3A3A3A" stroke-width="1.9" stroke-linecap="round" stroke-dasharray="1.5 5" marker-end="url(#ad)"/>
+<rect x="22" y="1122" width="302" height="231" rx="65" fill="#F6F3F8" stroke="#492D6B" stroke-width="2.1" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="1.7 5" />
+<rect x="360" y="1123" width="291" height="232" rx="65" fill="#F6F3F8" stroke="#492D6B" stroke-width="2.1" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="1.7 5" />
+<rect x="683" y="1121" width="298" height="232" rx="65" fill="#F6F3F8" stroke="#492D6B" stroke-width="2.1" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="1.7 5" />
+<text x="86" y="1147" font-size="16.5" font-weight="400" fill="#381F61" text-anchor="start">Neuroinflammation</text>
+<text x="82" y="1168" font-size="12.3" font-weight="400" fill="#381F61" text-anchor="start">(microglial activation)</text>
+<text x="165" y="1195" font-size="12.8" font-weight="400" fill="#A02D14" text-anchor="start">LPS/OMVs</text>
+<line x1="196" y1="1206" x2="196" y2="1234" stroke="#9B3521" stroke-width="1.6" stroke-linecap="round" />
+<line x1="214" y1="1206" x2="214" y2="1234" stroke="#9B3521" stroke-width="1.6" stroke-linecap="round" />
+<line x1="232" y1="1206" x2="232" y2="1234" stroke="#9B3521" stroke-width="1.6" stroke-linecap="round" />
+<line x1="250" y1="1206" x2="250" y2="1234" stroke="#9B3521" stroke-width="1.6" stroke-linecap="round" />
+<ellipse cx="90" cy="1245" rx="28" ry="33" fill="#B398C4" fill-opacity="0.5800000000000001" stroke="#8A6F9E" stroke-width="2.1" stroke-linejoin="round" stroke-linecap="round" />
+<ellipse cx="62" cy="1249" rx="12" ry="9" fill="#B398C4" fill-opacity="0.7" stroke="#8A6F9E" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" />
+<text x="128" y="1270" font-size="13.3" font-weight="400" fill="#0C646D" text-anchor="start">TLR4</text>
+<text x="258" y="1267" font-size="12.3" font-weight="400" fill="#1C1C1C" text-anchor="start">IL-1β ↑</text>
+<text x="166" y="1300" font-size="13.3" font-weight="400" fill="#0C646D" text-anchor="start">NLRP3</text>
+<text x="256" y="1289" font-size="12.3" font-weight="400" fill="#1C1C1C" text-anchor="start">IL-18 ↑</text>
+<text x="162" y="1316" font-size="13.3" font-weight="400" fill="#0C646D" text-anchor="start">inflammasome</text>
+<text x="256" y="1311" font-size="12.3" font-weight="400" fill="#1C1C1C" text-anchor="start">TNF-α ↑</text>
+<text x="165" y="1337" font-size="13.3" font-weight="400" fill="#0C646D" text-anchor="start">activation</text>
+<text x="259" y="1332" font-size="12.3" font-weight="400" fill="#1C1C1C" text-anchor="start">ROS ↑</text>
+<polygon points="390,1150 433.0,1150 482,1199.0 433.0,1248 390,1248 439.0,1199.0" fill="#95BEC2" fill-opacity="1.0"/>
+<polygon points="378,1288 465.0,1288 486,1309.0 465.0,1330 378,1330 399.0,1309.0" fill="#A5C9CB" fill-opacity="0.72"/>
+<text x="410" y="1149" font-size="16.5" font-weight="400" fill="#381F61" text-anchor="start">Cholinergic deficit</text>
+<text x="522" y="1201" font-size="12.3" font-weight="400" fill="#1C1C1C" text-anchor="start">↓ACh synthesis</text>
+<text x="522" y="1225" font-size="12.3" font-weight="400" fill="#1C1C1C" text-anchor="start">↓ACh release</text>
+<text x="470" y="1247" font-size="12.3" font-weight="400" fill="#1C1C1C" text-anchor="start">ACh</text>
+<text x="520" y="1249" font-size="12.3" font-weight="400" fill="#1C1C1C" text-anchor="start">↑ AChE activity</text>
+<text x="522" y="1275" font-size="12.3" font-weight="400" fill="#1C1C1C" text-anchor="start">↓Cholinergic</text>
+<text x="522" y="1299" font-size="12.3" font-weight="400" fill="#1C1C1C" text-anchor="start">receptor signaling</text>
+<polygon points="698,1195 778.5,1195 826,1242.5 778.5,1290 698,1290 745.5,1242.5" fill="#C2A8D1" fill-opacity="0.8"/>
+<ellipse cx="779" cy="1191" rx="48" ry="27" fill="#C9B2D6" fill-opacity="0.85" stroke="#8A6F9E" stroke-width="2.1" stroke-linejoin="round" stroke-linecap="round" />
+<ellipse cx="817" cy="1193" rx="17" ry="15" fill="#C9B2D6" fill-opacity="0.85" stroke="#8A6F9E" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" />
+<text x="750" y="1151" font-size="16.5" font-weight="400" fill="#381F61" text-anchor="start">Cognitive decline</text>
+<text x="826" y="1207" font-size="12.3" font-weight="400" fill="#1C1C1C" text-anchor="start">• Memory impairment</text>
+<text x="826" y="1231" font-size="12.3" font-weight="400" fill="#1C1C1C" text-anchor="start">• Learning deficits</text>
+<text x="824" y="1258" font-size="12.3" font-weight="400" fill="#1C1C1C" text-anchor="start">• Executive dysfunction</text>
+<text x="822" y="1280" font-size="12.3" font-weight="400" fill="#1C1C1C" text-anchor="start">• Behavioral changes</text>
+<line x1="150" y1="1355" x2="150" y2="1369" stroke="#3A3A3A" stroke-width="1.9" stroke-linecap="round" stroke-dasharray="1.5 5" />
+<line x1="515" y1="1355" x2="515" y2="1369" stroke="#3A3A3A" stroke-width="1.9" stroke-linecap="round" stroke-dasharray="1.5 5" />
+<line x1="836" y1="1355" x2="836" y2="1369" stroke="#3A3A3A" stroke-width="1.9" stroke-linecap="round" stroke-dasharray="1.5 5" />
+<line x1="150" y1="1370" x2="840" y2="1370" stroke="#3A3A3A" stroke-width="1.9" stroke-linecap="round" stroke-dasharray="1.5 5" />
+<line x1="515" y1="1372" x2="515" y2="1384" stroke="#3A3A3A" stroke-width="1.9" stroke-linecap="round" stroke-dasharray="1.5 5" marker-end="url(#ad)"/>
+<rect x="277" y="1385" width="432" height="74" rx="21" fill="#F3F1F6" stroke="#5F497E" stroke-width="2.1" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="1.7 5" />
+<text x="493" y="1429" font-size="16.5" font-weight="400" fill="#3B1E62" text-anchor="middle">Alzheimer disease progression</text>
+<rect x="37" y="1474" width="678" height="52" fill="none" stroke="#79617F" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="1.5 5" />
+<rect x="47" y="1487" width="24" height="24" fill="#94210B" stroke="none" stroke-width="0.0" stroke-linejoin="round" stroke-linecap="round" />
+<text x="77" y="1504" font-size="12.3" font-weight="400" fill="#3E4A4A" text-anchor="start">Pathogen factors (P. gingivalis)</text>
+<rect x="323" y="1488" width="23" height="23" fill="#106670" stroke="none" stroke-width="0.0" stroke-linejoin="round" stroke-linecap="round" />
+<text x="352" y="1504" font-size="12.3" font-weight="400" fill="#3E4A4A" text-anchor="start">Host proteins/genes</text>
+<rect x="538" y="1488" width="23" height="23" fill="#503074" stroke="none" stroke-width="0.0" stroke-linejoin="round" stroke-linecap="round" />
+<text x="567" y="1504" font-size="12.3" font-weight="400" fill="#3E4A4A" text-anchor="start">Pathology/outcomes</text>
+<text x="788" y="1490" font-size="12.3" font-weight="400" fill="#4A4A4A" text-anchor="start">→ Activation/promotion</text>
+<text x="778" y="1518" font-size="12.3" font-weight="400" fill="#4A4A4A" text-anchor="start">-- Inhibition/reduction</text>
+</svg>
