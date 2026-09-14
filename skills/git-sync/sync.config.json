@@ -1,0 +1,27 @@
+{
+  "branch": "arena/01a04caf-image-to-editable-pptx",
+  "remote": "origin",
+  "download_dir": "",
+  "download_sets": {
+    "final": [
+      "deliverable"
+    ]
+  },
+  "upload_map": {
+    ".docx": "sources",
+    ".doc": "sources",
+    ".pptx": "sources",
+    ".ppt": "sources",
+    ".pdf": "sources",
+    ".md": "sources",
+    ".txt": "sources",
+    ".zip": "sources",
+    ".py": "code",
+    ".ipynb": "code",
+    ".xlsx": "results",
+    ".xls": "results",
+    ".csv": "results"
+  },
+  "gate": "bash code/check_all.sh",
+  "receipt": "results/sync/last_sync.md"
+}
