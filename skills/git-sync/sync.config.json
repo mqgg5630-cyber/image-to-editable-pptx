@@ -4,7 +4,8 @@
   "download_dir": "",
   "download_sets": {
     "final": [
-      "deliverable"
+      "deliverable",
+      "examples/fig3-mechanism-map"
     ]
   },
   "upload_map": {
