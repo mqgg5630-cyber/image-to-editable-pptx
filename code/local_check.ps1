@@ -19,6 +19,14 @@
 $ErrorActionPreference = 'Continue'
 Set-Location (Join-Path $PSScriptRoot '..')   # repo root (this file lives in code\)
 
+# full-detail transcript: the scheduled-task host does not reliably pipe the
+# nested console output into watch.ps1's $out, so record everything here too
+# (results/status/detail_<stamp>.log gets pushed with the verdict)
+$__detailDir = Join-Path (Get-Location) 'results\status'
+New-Item -ItemType Directory -Force -Path $__detailDir | Out-Null
+$__detailLog = Join-Path $__detailDir ('detail_' + (Get-Date -Format 'yyyyMMdd-HHmmss') + '.log')
+try { Start-Transcript -LiteralPath $__detailLog | Out-Null } catch { }
+
 $fail = 0
 
 # ---------------------------------------------------------------- 1. gate
@@ -96,6 +104,7 @@ if (Test-Path -LiteralPath $svg) {
     }
 }
 
+try { Stop-Transcript | Out-Null } catch { }
 if ($fail -eq 0) { Write-Output '== local checks passed' }
 else { Write-Output '== local checks FAILED' }
 exit $fail
