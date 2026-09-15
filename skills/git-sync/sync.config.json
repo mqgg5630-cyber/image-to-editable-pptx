@@ -26,5 +26,7 @@
   "gate": "bash code/check_all.sh",
   "receipt": "results/sync/last_sync.md",
   "receipt_history": "results/sync/history",
-  "hardware_dir": "results/hardware"
+  "hardware_dir": "results/hardware",
+  "handshake": "results/status/handshake.json",
+  "check_cmd": "powershell -NoProfile -ExecutionPolicy Bypass -File code/local_check.ps1"
 }
