@@ -32,11 +32,11 @@ $pptx = '.\examples\fig3-mechanism-map\fig3_mechanism_map.pptx'
 $svg  = '.\examples\fig3-mechanism-map\fig3_mechanism_map.svg'
 foreach ($f in @($pptx, $svg)) {
     if (-not (Test-Path -LiteralPath $f)) {
-        Write-Host ("[FAIL] missing: {0}" -f $f) -ForegroundColor Red; $fail = 1
+        Write-Output ("[FAIL] missing: {0}" -f $f); $fail = 1
     } elseif ((Get-Item -LiteralPath $f).Length -lt 10KB) {
-        Write-Host ("[FAIL] suspiciously small: {0}" -f $f) -ForegroundColor Red; $fail = 1
+        Write-Output ("[FAIL] suspiciously small: {0}" -f $f); $fail = 1
     } else {
-        Write-Host ("ok: {0} ({1:N0} bytes)" -f $f, (Get-Item -LiteralPath $f).Length) -ForegroundColor Green
+        Write-Output ("ok: {0} ({1:N0} bytes)" -f $f, (Get-Item -LiteralPath $f).Length) -ForegroundColor Green
     }
 }
 
@@ -49,11 +49,11 @@ if (Test-Path -LiteralPath $pptx) {
 
         foreach ($part in @('[Content_Types].xml', 'ppt/presentation.xml', 'ppt/slides/slide1.xml')) {
             if ($names -notcontains $part) {
-                Write-Host ("[FAIL] pptx part missing: {0}" -f $part) -ForegroundColor Red; $fail = 1
+                Write-Output ("[FAIL] pptx part missing: {0}" -f $part); $fail = 1
             }
         }
         $slideCount = @($names | Where-Object { $_ -match '^ppt/slides/slide\d+\.xml$' }).Count
-        Write-Host ("pptx: {0} parts, {1} slide(s)" -f $names.Count, $slideCount)
+        Write-Output ("pptx: {0} parts, {1} slide(s)" -f $names.Count, $slideCount)
 
         $entry = $zip.GetEntry('ppt/slides/slide1.xml')
         $reader = New-Object System.IO.StreamReader($entry.Open())
@@ -65,18 +65,18 @@ if (Test-Path -LiteralPath $pptx) {
         $runs    = [regex]::Matches($xml, '<a:t>').Count
         $chars   = ([regex]::Matches($xml, '<a:t>(.*?)</a:t>', 'Singleline') | ForEach-Object { $_.Groups[1].Value.Length } | Measure-Object -Sum).Sum
         if ($null -eq $chars) { $chars = 0 }
-        Write-Host ("pptx slide1: {0} shapes, {1} pictures, {2} text runs, {3} editable chars" -f $shapes, $pics, $runs, $chars)
+        Write-Output ("pptx slide1: {0} shapes, {1} pictures, {2} text runs, {3} editable chars" -f $shapes, $pics, $runs, $chars)
 
-        if ($shapes -lt 220) { Write-Host ("[FAIL] expected >= 220 native shapes, got {0}" -f $shapes) -ForegroundColor Red; $fail = 1 }
-        if ($runs   -lt 80)  { Write-Host ("[FAIL] expected >= 80 text runs, got {0}" -f $runs) -ForegroundColor Red; $fail = 1 }
-        if ($chars  -lt 1000){ Write-Host ("[FAIL] expected >= 1000 editable chars, got {0}" -f $chars) -ForegroundColor Red; $fail = 1 }
-        if ($pics   -ne 0)   { Write-Host ("[FAIL] raster shortcut found: {0} <p:pic> (the deck must be native shapes)" -f $pics) -ForegroundColor Red; $fail = 1 }
+        if ($shapes -lt 220) { Write-Output ("[FAIL] expected >= 220 native shapes, got {0}" -f $shapes); $fail = 1 }
+        if ($runs   -lt 80)  { Write-Output ("[FAIL] expected >= 80 text runs, got {0}" -f $runs); $fail = 1 }
+        if ($chars  -lt 1000){ Write-Output ("[FAIL] expected >= 1000 editable chars, got {0}" -f $chars); $fail = 1 }
+        if ($pics   -ne 0)   { Write-Output ("[FAIL] raster shortcut found: {0} <p:pic> (the deck must be native shapes)" -f $pics); $fail = 1 }
         if (($shapes -ge 220) -and ($runs -ge 80) -and ($chars -ge 1000) -and ($pics -eq 0)) {
             Write-Host 'ok: pptx is a fully editable native deck (no raster shortcuts)' -ForegroundColor Green
         }
         $zip.Dispose()
     } catch {
-        Write-Host ("[FAIL] pptx could not be opened as an Office package: {0}" -f $_.Exception.Message) -ForegroundColor Red
+        Write-Output ("[FAIL] pptx could not be opened as an Office package: {0}" -f $_.Exception.Message)
         $fail = 1
     }
 }
@@ -87,11 +87,11 @@ if (Test-Path -LiteralPath $svg) {
         $raw = Get-Content -LiteralPath $svg -Raw -Encoding UTF8
         [xml]$null = $raw
         $textNodes = [regex]::Matches($raw, '<text').Count
-        Write-Host ("svg: well-formed XML, {0} text nodes" -f $textNodes)
-        if ($textNodes -lt 80) { Write-Host ("[FAIL] expected >= 80 svg text nodes, got {0}" -f $textNodes) -ForegroundColor Red; $fail = 1 }
+        Write-Output ("svg: well-formed XML, {0} text nodes" -f $textNodes)
+        if ($textNodes -lt 80) { Write-Output ("[FAIL] expected >= 80 svg text nodes, got {0}" -f $textNodes); $fail = 1 }
         else { Write-Host 'ok: svg is well-formed with editable text nodes' -ForegroundColor Green }
     } catch {
-        Write-Host ("[FAIL] svg is not well-formed XML: {0}" -f $_.Exception.Message) -ForegroundColor Red
+        Write-Output ("[FAIL] svg is not well-formed XML: {0}" -f $_.Exception.Message)
         $fail = 1
     }
 }
