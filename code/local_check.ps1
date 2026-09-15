@@ -24,7 +24,7 @@ $fail = 0
 # ---------------------------------------------------------------- 1. gate
 if (Test-Path -LiteralPath '.\code\check_all.sh') {
     bash code/check_all.sh
-    if ($LASTEXITCODE -ne 0) { Write-Output '[FAIL] gate failed' -ForegroundColor Red; $fail = 1 }
+    if ($LASTEXITCODE -ne 0) { Write-Output '[FAIL] gate failed'; $fail = 1 }
 }
 
 # ------------------------------------------------- 2. deliverables exist
@@ -36,7 +36,7 @@ foreach ($f in @($pptx, $svg)) {
     } elseif ((Get-Item -LiteralPath $f).Length -lt 10KB) {
         Write-Output ("[FAIL] suspiciously small: {0}" -f $f); $fail = 1
     } else {
-        Write-Output ("ok: {0} ({1:N0} bytes)" -f $f, (Get-Item -LiteralPath $f).Length) -ForegroundColor Green
+        Write-Output ("ok: {0} ({1:N0} bytes)" -f $f, (Get-Item -LiteralPath $f).Length)
     }
 }
 
@@ -72,7 +72,7 @@ if (Test-Path -LiteralPath $pptx) {
         if ($chars  -lt 1000){ Write-Output ("[FAIL] expected >= 1000 editable chars, got {0}" -f $chars); $fail = 1 }
         if ($pics   -ne 0)   { Write-Output ("[FAIL] raster shortcut found: {0} <p:pic> (the deck must be native shapes)" -f $pics); $fail = 1 }
         if (($shapes -ge 220) -and ($runs -ge 80) -and ($chars -ge 1000) -and ($pics -eq 0)) {
-            Write-Output 'ok: pptx is a fully editable native deck (no raster shortcuts)' -ForegroundColor Green
+            Write-Output 'ok: pptx is a fully editable native deck (no raster shortcuts)'
         }
         $zip.Dispose()
     } catch {
@@ -89,13 +89,13 @@ if (Test-Path -LiteralPath $svg) {
         $textNodes = [regex]::Matches($raw, '<text').Count
         Write-Output ("svg: well-formed XML, {0} text nodes" -f $textNodes)
         if ($textNodes -lt 80) { Write-Output ("[FAIL] expected >= 80 svg text nodes, got {0}" -f $textNodes); $fail = 1 }
-        else { Write-Output 'ok: svg is well-formed with editable text nodes' -ForegroundColor Green }
+        else { Write-Output 'ok: svg is well-formed with editable text nodes' }
     } catch {
         Write-Output ("[FAIL] svg is not well-formed XML: {0}" -f $_.Exception.Message)
         $fail = 1
     }
 }
 
-if ($fail -eq 0) { Write-Output '== local checks passed' -ForegroundColor Green }
-else { Write-Host '== local checks FAILED' -ForegroundColor Red }
+if ($fail -eq 0) { Write-Output '== local checks passed' }
+else { Write-Output '== local checks FAILED' }
 exit $fail
