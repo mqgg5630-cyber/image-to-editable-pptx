@@ -1,9 +1,9 @@
 {
-    "round":  2,
-    "arena_state":  "awaiting_check",
-    "local_state":  "passed",
-    "arena_updated":  "2026-09-15 03:15:34",
-    "local_updated":  "2026-09-15 11:16:45",
-    "host":  "LAPTOP-R77M5D6M",
-    "note":  "round 2: re-verify fig3 deliverables with full logging (pptx native-shape/text audit + svg well-formedness; log must show the counts)"
+  "round": 3,
+  "arena_state": "awaiting_check",
+  "local_state": "pending",
+  "arena_updated": "2026-09-15 03:19:58",
+  "local_updated": null,
+  "host": "",
+  "note": "round 3: same fig3 deliverable audit, now with full transcript (detail_*.log in results/status)"
 }
