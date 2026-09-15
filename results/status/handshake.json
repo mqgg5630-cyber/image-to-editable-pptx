@@ -1,9 +1,9 @@
 {
-  "round": 3,
-  "arena_state": "awaiting_check",
-  "local_state": "pending",
-  "arena_updated": "2026-09-15 03:19:58",
-  "local_updated": null,
-  "host": "",
-  "note": "round 3: same fig3 deliverable audit, now with full transcript (detail_*.log in results/status)"
+    "round":  3,
+    "arena_state":  "awaiting_check",
+    "local_state":  "passed",
+    "arena_updated":  "2026-09-15 03:19:58",
+    "local_updated":  "2026-09-15 11:21:45",
+    "host":  "LAPTOP-R77M5D6M",
+    "note":  "round 3: same fig3 deliverable audit, now with full transcript (detail_*.log in results/status)"
 }
