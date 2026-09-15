@@ -1,9 +1,9 @@
 {
-    "round":  1,
-    "arena_state":  "awaiting_check",
-    "local_state":  "passed",
-    "arena_updated":  "2026-09-15 03:09:57",
-    "local_updated":  "2026-09-15 11:11:45",
-    "host":  "LAPTOP-R77M5D6M",
-    "note":  "verify fig3 deliverables on local machine: pptx must open as Office package with \u003e=220 native shapes, \u003e=80 text runs, \u003e=1000 editable chars, 0 pictures; svg must be well-formed XML with \u003e=80 text nodes"
+  "round": 1,
+  "arena_state": "accepted",
+  "local_state": "passed",
+  "arena_updated": "2026-09-15 03:13:52",
+  "local_updated": "2026-09-15 11:11:45",
+  "host": "LAPTOP-R77M5D6M",
+  "note": "round 1 passed on LAPTOP-R77M5D6M; logging improved for round 2"
 }
