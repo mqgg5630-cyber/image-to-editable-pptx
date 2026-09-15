@@ -1,16 +1,18 @@
-# local_check.ps1 (template) - the repo-specific checks that run on YOUR
-# machine. watch.ps1 executes this whenever the agent requests a check
-# (config key check_cmd), captures all output to
-# results\status\check_rN_<stamp>.log and pushes the verdict back.
+# local_check.ps1 (repo-specific) - the checks that run on YOUR machine.
+# watch.ps1 executes this whenever the agent requests a check (config key
+# check_cmd), captures all output to results\status\check_rN_<stamp>.log and
+# pushes the verdict back.
 #
-# Exit 0 = passed, anything else = failed. Edit freely - this file belongs to
-# the repo, the installer only creates it when it is missing.
-#
-# Ideas for real checks (pick what fits the repo):
-#   - deliverable files exist and have sane sizes
-#   - open an Office file via COM to prove it is not corrupt
-#   - python -c "import torch; assert torch.cuda.is_available()"  (GPU smoke test)
-#   - run a script from code\ and compare its output
+# This repo = image-to-editable-pptx. The project promise: the deck is a
+# REAL editable PowerPoint (native shapes + editable text), not a screenshot
+# glued onto a slide. So the local machine verifies exactly that:
+#   1. the standard gate (.ps1 ASCII + branch guard + script consistency)
+#   2. the fig3 deliverables exist and are not empty
+#   3. fig3_mechanism_map.pptx is a well-formed Office package: opens as a
+#      zip, has the required parts, 1 slide, >= 220 shapes, >= 80 text runs,
+#      >= 1000 editable characters and ZERO pictures (no raster shortcuts)
+#   4. fig3_mechanism_map.svg is well-formed XML with >= 80 text nodes
+# Exit 0 = passed, anything else = failed.
 #
 # ASCII-only on purpose (Windows PowerShell 5.1 decodes .ps1 as ANSI/GBK).
 
@@ -19,35 +21,81 @@ Set-Location (Join-Path $PSScriptRoot '..')   # repo root (this file lives in co
 
 $fail = 0
 
-# 1. the standard gate (.ps1 ASCII + branch guard + script consistency)
-#    (forward slashes on purpose: this also runs under the scheduled task,
-#     where bash may eat backslashes)
+# ---------------------------------------------------------------- 1. gate
 if (Test-Path -LiteralPath '.\code\check_all.sh') {
     bash code/check_all.sh
     if ($LASTEXITCODE -ne 0) { Write-Host '[FAIL] gate failed' -ForegroundColor Red; $fail = 1 }
 }
 
-# 2. example: the deliverable must exist and not be empty
-# if (-not (Test-Path '.\deliverable\final.pptx')) {
-#     Write-Host '[FAIL] deliverable\final.pptx missing' -ForegroundColor Red; $fail = 1
-# }
-
-
-# 2. this repo's deliverables must exist and not be empty
-foreach ($f in @(
-    'examples\fig3-mechanism-map\fig3_mechanism_map.pptx',
-    'examples\fig3-mechanism-map\fig3_mechanism_map.svg'
-)) {
-    if (-not (Test-Path -LiteralPath ('.\' + $f))) {
+# ------------------------------------------------- 2. deliverables exist
+$pptx = '.\examples\fig3-mechanism-map\fig3_mechanism_map.pptx'
+$svg  = '.\examples\fig3-mechanism-map\fig3_mechanism_map.svg'
+foreach ($f in @($pptx, $svg)) {
+    if (-not (Test-Path -LiteralPath $f)) {
         Write-Host ("[FAIL] missing: {0}" -f $f) -ForegroundColor Red; $fail = 1
-    } elseif ((Get-Item -LiteralPath ('.\' + $f)).Length -lt 10KB) {
+    } elseif ((Get-Item -LiteralPath $f).Length -lt 10KB) {
         Write-Host ("[FAIL] suspiciously small: {0}" -f $f) -ForegroundColor Red; $fail = 1
     } else {
-        Write-Host ("ok: {0}" -f $f) -ForegroundColor Green
+        Write-Host ("ok: {0} ({1:N0} bytes)" -f $f, (Get-Item -LiteralPath $f).Length) -ForegroundColor Green
     }
 }
 
-# 3. add your own checks here ...
+# ------------------------------------------------- 3. pptx is a real deck
+if (Test-Path -LiteralPath $pptx) {
+    try {
+        Add-Type -AssemblyName System.IO.Compression, System.IO.Compression.FileSystem
+        $zip = [System.IO.Compression.ZipFile]::OpenRead((Resolve-Path -LiteralPath $pptx).Path)
+        $names = @($zip.Entries | ForEach-Object { $_.FullName })
+
+        foreach ($part in @('[Content_Types].xml', 'ppt/presentation.xml', 'ppt/slides/slide1.xml')) {
+            if ($names -notcontains $part) {
+                Write-Host ("[FAIL] pptx part missing: {0}" -f $part) -ForegroundColor Red; $fail = 1
+            }
+        }
+        $slideCount = @($names | Where-Object { $_ -match '^ppt/slides/slide\d+\.xml$' }).Count
+        Write-Host ("pptx: {0} parts, {1} slide(s)" -f $names.Count, $slideCount)
+
+        $entry = $zip.GetEntry('ppt/slides/slide1.xml')
+        $reader = New-Object System.IO.StreamReader($entry.Open())
+        $xml = $reader.ReadToEnd()
+        $reader.Close()
+
+        $shapes  = [regex]::Matches($xml, '<p:sp>').Count
+        $pics    = [regex]::Matches($xml, '<p:pic>').Count
+        $runs    = [regex]::Matches($xml, '<a:t>').Count
+        $chars   = ([regex]::Matches($xml, '<a:t>(.*?)</a:t>', 'Singleline') | ForEach-Object { $_.Groups[1].Value.Length } | Measure-Object -Sum).Sum
+        if ($null -eq $chars) { $chars = 0 }
+        Write-Host ("pptx slide1: {0} shapes, {1} pictures, {2} text runs, {3} editable chars" -f $shapes, $pics, $runs, $chars)
+
+        if ($shapes -lt 220) { Write-Host ("[FAIL] expected >= 220 native shapes, got {0}" -f $shapes) -ForegroundColor Red; $fail = 1 }
+        if ($runs   -lt 80)  { Write-Host ("[FAIL] expected >= 80 text runs, got {0}" -f $runs) -ForegroundColor Red; $fail = 1 }
+        if ($chars  -lt 1000){ Write-Host ("[FAIL] expected >= 1000 editable chars, got {0}" -f $chars) -ForegroundColor Red; $fail = 1 }
+        if ($pics   -ne 0)   { Write-Host ("[FAIL] raster shortcut found: {0} <p:pic> (the deck must be native shapes)" -f $pics) -ForegroundColor Red; $fail = 1 }
+        if (($shapes -ge 220) -and ($runs -ge 80) -and ($chars -ge 1000) -and ($pics -eq 0)) {
+            Write-Host 'ok: pptx is a fully editable native deck (no raster shortcuts)' -ForegroundColor Green
+        }
+        $zip.Dispose()
+    } catch {
+        Write-Host ("[FAIL] pptx could not be opened as an Office package: {0}" -f $_.Exception.Message) -ForegroundColor Red
+        $fail = 1
+    }
+}
+
+# ------------------------------------------------- 4. svg is well-formed
+if (Test-Path -LiteralPath $svg) {
+    try {
+        $raw = Get-Content -LiteralPath $svg -Raw -Encoding UTF8
+        [xml]$null = $raw
+        $textNodes = [regex]::Matches($raw, '<text').Count
+        Write-Host ("svg: well-formed XML, {0} text nodes" -f $textNodes)
+        if ($textNodes -lt 80) { Write-Host ("[FAIL] expected >= 80 svg text nodes, got {0}" -f $textNodes) -ForegroundColor Red; $fail = 1 }
+        else { Write-Host 'ok: svg is well-formed with editable text nodes' -ForegroundColor Green }
+    } catch {
+        Write-Host ("[FAIL] svg is not well-formed XML: {0}" -f $_.Exception.Message) -ForegroundColor Red
+        $fail = 1
+    }
+}
 
 if ($fail -eq 0) { Write-Host '== local checks passed' -ForegroundColor Green }
+else { Write-Host '== local checks FAILED' -ForegroundColor Red }
 exit $fail
