@@ -24,7 +24,7 @@ Set-Location (Join-Path $PSScriptRoot '..')   # repo root (this file lives in co
 # (results/status/detail_<stamp>.log gets pushed with the verdict)
 $__detailDir = Join-Path (Get-Location) 'results\status'
 New-Item -ItemType Directory -Force -Path $__detailDir | Out-Null
-$__detailLog = Join-Path $__detailDir ('detail_' + (Get-Date -Format 'yyyyMMdd-HHmmss') + '.log')
+$__detailLog = Join-Path $__detailDir ('detail_' + (Get-Date -Format 'yyyyMMdd-HHmmss') + '.txt')
 try { Start-Transcript -Path $__detailLog | Out-Null } catch { }
 
 $fail = 0
