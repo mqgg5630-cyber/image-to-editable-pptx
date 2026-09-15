@@ -121,7 +121,9 @@ fi
 mkdir -p "$REPO/skills"
 rm -rf "$REPO/skills/git-sync"
 cp -r "$SRC/skills/git-sync" "$REPO/skills/git-sync"
-echo "OK: skills/git-sync installed"
+VER=""
+[ -f "$SRC/skills/git-sync/VERSION" ] && VER="$(tr -d '[:space:]' < "$SRC/skills/git-sync/VERSION")"
+echo "OK: skills/git-sync installed${VER:+ (v$VER)}"
 
 CFG="$REPO/skills/git-sync/sync.config.json"
 if ! python3 - "$CFG" "$BRANCH" "$REMOTE_NAME" "$OLD_CFG_B64" <<'PY'
@@ -146,6 +148,8 @@ cfg.setdefault('upload_map', {
     '.xlsx': 'results', '.xls': 'results', '.csv': 'results'})
 cfg.setdefault('gate', 'bash code/check_all.sh')
 cfg.setdefault('receipt', 'results/sync/last_sync.md')
+cfg.setdefault('receipt_history', 'results/sync/history')
+cfg.setdefault('hardware_dir', 'results/hardware')
 
 with open(cfg_path, 'w', encoding='utf-8') as f:
     json.dump(cfg, f, ensure_ascii=False, indent=2)

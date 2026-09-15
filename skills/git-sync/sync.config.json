@@ -24,5 +24,7 @@
     ".csv": "results"
   },
   "gate": "bash code/check_all.sh",
-  "receipt": "results/sync/last_sync.md"
+  "receipt": "results/sync/last_sync.md",
+  "receipt_history": "results/sync/history",
+  "hardware_dir": "results/hardware"
 }
