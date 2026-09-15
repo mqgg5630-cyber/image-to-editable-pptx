@@ -1,9 +1,9 @@
 {
-  "round": 5,
-  "arena_state": "awaiting_check",
-  "local_state": "pending",
-  "arena_updated": "2026-09-15 03:29:24",
-  "local_updated": null,
-  "host": "",
-  "note": "round 5: final - deliverable audit, detail transcript as .txt so it passes the repo .gitignore"
+    "round":  5,
+    "arena_state":  "awaiting_check",
+    "local_state":  "passed",
+    "arena_updated":  "2026-09-15 03:29:24",
+    "local_updated":  "2026-09-15 11:31:45",
+    "host":  "LAPTOP-R77M5D6M",
+    "note":  "round 5: final - deliverable audit, detail transcript as .txt so it passes the repo .gitignore"
 }
